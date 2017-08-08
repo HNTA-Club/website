@@ -1,7 +1,7 @@
 ---
+layout: single
 title:  "This is the live update from the repo"
 author: taqtaq
-category: news
 ---
 Now the BitBucket repository is live. ~this is strikethrough~
 
