@@ -7,7 +7,7 @@ title_separator: "-"
 name: "HeNTAi board"
 description: "TUT anime club website"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hnta-live.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 myanimelist: "KotH"
 slack: "hnta"
 facebook:
