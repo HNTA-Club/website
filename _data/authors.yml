@@ -1,0 +1,17 @@
+taqtaq:
+  name: "taQtaQ"
+  bio: "Chairman of the board."
+  avatar: "/assets/images/boardmem.jpg"
+  board: "true"
+
+mpioin:
+  name: "mPioin"
+  bio: "Clubroom host."
+  avatar: "/assets/images/boardmem.jpg"
+  board: "true"
+
+nekoantenni:
+  name: "NekoAntenni"
+  bio: "Anime watcher. Made this website."
+  avatar: "/assets/images/boardmem.jpg"
+  board: "false"
