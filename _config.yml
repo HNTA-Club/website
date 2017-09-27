@@ -8,7 +8,7 @@ name: "HeNTAi board"
 description: "TUT anime club website"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-myanimelist: "KotH"
+myanimelist: "HeNTaiTUT"
 slack: "hnta"
 facebook:
   username: "tut.hentai"
