@@ -21,3 +21,9 @@ fireflower:
   bio: "Would you like some incest?"
   avatar: "https://images7.alphacoders.com/296/296050.png"
   board: "false"
+  
+chaser:
+  name: "Chaser"
+  bio: "A dude"
+  avatar: "http://media.animevice.com/uploads/1/13790/353484-chaser.jpg"
+  board: "true"
