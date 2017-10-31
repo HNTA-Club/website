@@ -4,7 +4,7 @@ permalink: /rules/
 sidebar:
   nav: "info"
 ---
-Rules only in Finnish.
+**Rules only in Finnish.**
 
 Luku 1 
 Nimi, kotipaikka ja tarkoitus
