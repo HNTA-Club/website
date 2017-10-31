@@ -1,7 +1,7 @@
 taqtaq:
   name: "taQtaQ"
   bio: "Chairman of the board."
-  avatar: "/assets/images/boardmem.jpg"
+  avatar: "/assets/images/hideyoshi.jpg"
   board: "true"
 
 mpioin:
@@ -31,6 +31,6 @@ chaser:
 dorks:
   name: "DarkSekai"
   bio: "Stingy treasurer"
-  avatar: "/assets/images/boardmem.jpg"
+  avatar: "/assets/images/bordmem.jpg"
   board: "true"
   
