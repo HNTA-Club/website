@@ -20,7 +20,7 @@ fireflower:
   name: "FireFlower"
   bio: "Would you like some incest?"
   avatar: "https://images7.alphacoders.com/296/296050.png"
-  board: "false"
+  board: "true"
   
 chaser:
   name: "Chaser"
