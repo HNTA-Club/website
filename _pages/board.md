@@ -4,7 +4,6 @@ permalink: /board/
 sidebar:
   nav: "info"
 ---
-Here the listing of board members will be generated automatically.
 
 <ul>
   {% for author in site.data.authors %}

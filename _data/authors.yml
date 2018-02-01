@@ -1,7 +1,7 @@
 taqtaq:
   name: "taQtaQ"
   bio: "Chairman of the board."
-  avatar: "/assets/images/boardmem.jpg"
+  avatar: "/assets/images/hideyoshi.jpg"
   board: "true"
 
 mpioin:
@@ -27,3 +27,10 @@ chaser:
   bio: "Secretary"
   avatar: "https://lh3.googleusercontent.com/-4pTO7SIGGS8/Ve3cGXM72NI/AAAAAAAAFAw/Jlbzhl3tBCg/w1081-h1080/Chaser-john-doe-yumekui-merry-anime-artwork-hooded-masks-hd-anime-images-dream-eater-merry-hd-wallpaper.jpg"
   board: "true"
+  
+dorks:
+  name: "DarkSekai"
+  bio: "Stingy treasurer"
+  avatar: "/assets/images/bordmem.jpg"
+  board: "true"
+  
