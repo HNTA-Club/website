@@ -4,8 +4,14 @@ permalink: /gallery/
 ---
 # This be the gallery yarr
 
-gallery:
+  gallery:
     - image_path: http://laoblogger.com/images/anime-scenery-clipart-6.jpg
-      title: "Testing image"
+    - image_path: https://www.walldevil.com/wallpapers/a87/final-fantasy-anime-wallpaper-wallpapers-groups-images.jpg
+    
+  
+  
+  <figure>
+    <img src="https://www.walldevil.com/wallpapers/a87/final-fantasy-anime-wallpaper-wallpapers-groups-images.jpg">
+  </figure>
+    
       
-{% include gallery %}
