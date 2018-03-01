@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /honor/
+permalink: /Honor/
 sidebar:
   nav: "info"
 ---
