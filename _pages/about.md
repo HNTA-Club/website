@@ -20,4 +20,3 @@ To see if the clubroom is open or not you can check the club's Slack or IRC and 
 
 Below is a simple map for finding the club in sähkötalo basement.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/kancolle_office.gif" alt="">
