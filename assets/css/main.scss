@@ -5,3 +5,10 @@
 @charset "utf-8";
 
 @import "minimal-mistakes";
+html { 
+  background: url(assets/images/main_splash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
