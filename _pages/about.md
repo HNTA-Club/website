@@ -8,7 +8,7 @@ HeNTAi is TUT's anime club, which organizes animation and manga related activiti
 
 Students can join the club for a tiny fee of 0 yen.
 
-The clubroom is situated in the basement of Sahkotalo.
+The clubroom is situated in the basement of Sähkötalo.
 
 In the clubroom you can read manga, enjoy audiovisual entertainment or just have a breather when other guilds and clubs are busy.
 
@@ -18,7 +18,7 @@ The clubroom is usually open on weekdays between 12-18 depending on the schedule
 
 To see if the clubroom is open or not you can check the club's Slack or IRC and look for Aniki-chan's announcements or clubroom status on Slack.
 
-Below is a simple map for finding the club in Sahkotalo basement.
+Below is a simple map for finding the club in Sähkötalo basement.
 
   <figure>
     <img src="/assets/images/kancolle_office.gif">
