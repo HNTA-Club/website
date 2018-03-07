@@ -16,6 +16,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+secret:
+  - title: "Word"
+    url: monmusu.hnta.club
 
 info:
   - title: "General Info"
