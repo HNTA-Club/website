@@ -18,7 +18,7 @@ main:
   #   url: /sitemap/
 secret:
   - title: "Word"
-    url: monmusu.hnta.club
+    url: https://monmusu.hnta.club/
 
 info:
   - title: "General Info"
