@@ -7,27 +7,44 @@ sidebar:
 Honorary members and Honorary Chairmen are people who have positively affected the club's activity for a long time.
 
 **Honorary Chairmen**
+-Meeri M‰kinen
 
-  -Meeri M√§kinen
-  -Ilkka Niemi
-  -Ville Piirainen
-  -Miko M√§kinen
+-Ilkka Niemi
+
+-Ville Piirainen
+
+-Miko M‰kinen
 
 **Honorary Members**
 
-  -Tuukka Koskenm√§ki
-  -Mikko Eronen
-  -Marko Viitanen
-  -Jussi Isoviita
-  -Henna Andelin
-  -Pekka Wallendahl
-  -Juha Lepola
-  -Oula Lintula (os. Mutikainen)
-  -Mariina Hallikainen
-  -Otto Martin
-  -Lasse Ylinen
-  -Ari Koivula
-  -Marjaana Viitanen
-  -Vesa Koskela
-  -Matti Hautala
-  -Elina Lukkarinen
+-Tuukka Koskenm‰ki
+
+-Mikko Eronen
+
+-Marko Viitanen
+
+-Jussi Isoviita
+
+-Henna Andelin
+
+-Pekka Wallendahl
+
+-Juha Lepola
+
+-Oula Lintula (nee Mutikainen)
+
+-Mariina Hallikainen
+
+-Otto Martin
+
+-Lasse Ylinen
+
+-Ari Koivula
+
+-Marjaana Viitanen
+
+-Vesa Koskela
+
+-Matti Hautala
+
+-Elina Lukkarinen
