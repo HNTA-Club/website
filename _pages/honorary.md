@@ -9,43 +9,25 @@ Honorary members and Honorary Chairmen are people who have positively affected t
 **Honorary Chairmen**
 
 - Meeri Mäkinen
-
 - Ilkka Niemi
-
 - Ville Piirainen
-
 - Miko Mäkinen
 
 **Honorary Members**
 
 - Tuukka Koskenmäki
-
 - Mikko Eronen
-
 - Marko Viitanen
-
 - Jussi Isoviita
-
 - Henna Andelin
-
 - Pekka Wallendahl
-
 - Juha Lepola
-
 - Oula Lintula (nee Mutikainen)
-
 - Mariina Hallikainen
-
 - Otto Martin
-
 - Lasse Ylinen
-
 - Ari Koivula
-
 - Marjaana Viitanen
-
 - Vesa Koskela
-
 - Matti Hautala
-
 - Elina Lukkarinen
