@@ -13,5 +13,6 @@ sidebar:
 
 - **How do I get permissions to the basement?**
 
-  The club can give you permission to the basement as well as a key to the clubroom,
+  The club can give you permissions to the basement as well as a key to the clubroom,
   these are mainly given to members of the board, but can be given to especially active members.
+
