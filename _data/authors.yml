@@ -31,18 +31,18 @@ chaser:
 dorks:
   name: "DarkSekai"
   bio: "Stingy treasurer"
-  avatar: "/assets/images/bordmem.jpg"
+  avatar: "/assets/images/boardmem.jpg"
   board: "true"
   
 subject:
   name: "Subject F"
   bio: "Clubroom Fairy"
-  avatar: "/assets/images/bordmem.jpg"
+  avatar: "/assets/images/boardmem.jpg"
   board: "true"
 
 sassan:
   name: "Sassan"
   bio: "Fuksi handler"
-  avatar: "/assets/images/bordmem.jpg"
+  avatar: "/assets/images/boardmem.jpg"
   board: "true"
   
