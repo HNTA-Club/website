@@ -3,15 +3,12 @@ layout: single
 permalink: /gallery/
 
 gallery:
-   - url: /assets/images/kancolle_office.gif
-     image_path: /assets/images/kancolle_office.gif
-   - url: /assets/images/kancolle_office.gif
-     image_path: /assets/images/kancolle_office.gif
-   - url: /assets/images/kancolle_office.gif
-     image_path: /assets/images/kancolle_office.gif
-   - url: /assets/images/header.png
-     image_path: /assets/images/header.png
-     title: "All cannons FIRE!"
+   - url: /assets/images/spring2018
+     image_path: /assets/images/spring2018
+     title: "Spring meeting 2018"
+   - url: /assets/images/spring2018-2
+     image_path: /assets/images/spring2018-2
+     title: "Spring meeting 2018"
 ---
-# This be the gallery yarr
+# This is where random pictures of HNTA events will be added for your viewing pleasure
 {% include gallery caption="Here's some pictures for ya" %}
