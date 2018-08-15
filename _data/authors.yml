@@ -1,48 +1,40 @@
 taqtaq:
   name: "taQtaQ"
   bio: "Chairman of the board"
-  avatar: "/assets/images/hideyoshi.jpg"
   board: "true"
-
+  
+fireflower:
+  name: "FireFlower"
+  bio: "Vice-Chairman"
+  board: "true"
+  
+chaser:
+  name: "Chaser"
+  bio: "All Mighty Secretary, Upkeeper of this site"
+  board: "true"
+  
 mpioin:
   name: "mPioin"
   bio: "Ultimate Clubroom host"
-  avatar: "/assets/images/boardmem.jpg"
   board: "true"
 
 nekoantenni:
   name: "NekoAntenni"
   bio: "Anime watcher. Made this website."
-  avatar: "/assets/images/boardmem.jpg"
   board: "false"
-
-fireflower:
-  name: "FireFlower"
-  bio: "Vice-Chairman"
-  avatar: "https://images7.alphacoders.com/296/296050.png"
-  board: "true"
-  
-chaser:
-  name: "Chaser"
-  bio: "All Mighty Secretary"
-  avatar: "https://lh3.googleusercontent.com/-4pTO7SIGGS8/Ve3cGXM72NI/AAAAAAAAFAw/Jlbzhl3tBCg/w1081-h1080/Chaser-john-doe-yumekui-merry-anime-artwork-hooded-masks-hd-anime-images-dream-eater-merry-hd-wallpaper.jpg"
-  board: "true"
   
 dorks:
   name: "DarkSekai"
   bio: "Stingy treasurer"
-  avatar: "/assets/images/bordmem.jpg"
   board: "true"
   
 subject:
   name: "Subject F"
   bio: "Clubroom Fairy"
-  avatar: "/assets/images/bordmem.jpg"
   board: "true"
 
 sassan:
   name: "Sassan"
   bio: "Fuksi handler"
-  avatar: "/assets/images/bordmem.jpg"
   board: "true"
   
