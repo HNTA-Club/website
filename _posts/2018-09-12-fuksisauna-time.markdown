@@ -18,4 +18,4 @@ There will also be grilling (electric grill) throughout the event and some fries
 See you there!
 
 TL;DR
-Freshmen sauna 13.09.2018, Tekniikankatu 16B, Basement, Pikkuholvi (Access from behind, down the stairs)
+Freshmen sauna 13.09.2018 18:00, Tekniikankatu 16B, Basement, Pikkuholvi (Access from behind, down the stairs)
