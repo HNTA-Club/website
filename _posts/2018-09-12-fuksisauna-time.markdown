@@ -5,7 +5,7 @@ categories: news
 ---
 
 It is time for HNTA's traditional freshmen sauna, this time held on 13.09.2018 at 18:00 in Tieteentorni's Pikkuholvi (Bomb shelter), where there hasn't been any student parties yet!
-Our program may or may not include and are not limited to such activities as:
+Our program may or may not include but are not limited to such activities as:
 - Board introductions
 - Warm up funtime
 - Anime
@@ -17,4 +17,5 @@ There will also be grilling (electric grill) throughout the event and some fries
 
 See you there!
 
-Accurate Address of the event is Tekniikankatu 16 B, Basement, Pikkuholvi (Access from behind, down the stairs)
+TL;DR
+Freshmen sauna 13.09.2018, Tekniikankatu 16B, Basement, Pikkuholvi (Access from behind, down the stairs)
