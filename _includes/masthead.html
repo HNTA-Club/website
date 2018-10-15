@@ -3,13 +3,6 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
-        <div class="clubroom-info">
-          {% if site.data.openstate=="true" %}
-            OPEN
-          {% else %}
-            CLOSED
-          {% endif %}
-        </div>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
