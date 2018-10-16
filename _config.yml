@@ -18,6 +18,12 @@ author:
   avatar: "/assets/images/boardmem.jpg"
   bio: "Your noble masters."
 
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/tut.hentai"
+
 # Reading Files
 include:
   - .htaccess
@@ -91,6 +97,7 @@ timezone: Europe/Helsinki
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
+  - jekyll-include-cache
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-gist
