@@ -4,7 +4,7 @@ categories: news
 
 ---
 
-The year is coming to and end and with it the club's board of 2018 as well.
+The year is coming to an end and with it the club's board of 2018 as well.
 
 As such the positions for the next year's board are opening and so we invite you to:
 
