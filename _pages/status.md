@@ -15,6 +15,7 @@ permalink: /status
 
 <body>
 Placeholder for the status page.
+<p id="status"></p>
     <script>
         jsPanel.create();
     </script>
