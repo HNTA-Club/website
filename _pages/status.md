@@ -17,7 +17,7 @@ permalink: /status
 <p id="status">If you see this line, the status is not fetched. Try refreshing the page or contact the club authorities.</p>
 
 <script>
-	fetch("https://46.101.115.8:8080")
+	fetch("https://nkante.ml:8080")
 		.then(function(response) {
 			if (response.ok) {
 		        response.text().then(function(contents) {
