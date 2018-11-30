@@ -15,6 +15,7 @@ permalink: /status
 
 <p>Welcome to the status page of HNTA.</p>
 <p id="status">If you see this line, the status is not fetched. Try refreshing the page or contact the club authorities.</p>
+<p>Refresh the page to update the status.</p>
 
 <script>
 	fetch("https://nkante.ml:8080")
