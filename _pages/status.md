@@ -18,7 +18,7 @@ permalink: /status
 <p>Refresh the page to update the status.</p>
 
 <script>
-	fetch("https://nkante.ml:8080")
+	fetch("https://nkante.site:8080")
 		.then(function(response) {
 			if (response.ok) {
 		        response.text().then(function(contents) {
