@@ -1,40 +1,67 @@
+sassan:
+  name: "Sassan"
+  bio: "Chairman of the Board"
+  board: "true"
+  
+gegguli:
+  name: "Gegguli"
+  bio: "Vice-chairman, Ultimate hostess"
+  board: "true"
+  
+sonozaki:
+  name: "Sonozaki"
+  bio: "Secretary"
+  board: "true"
+  
+dorks:
+  name: "DarkSekai"
+  bio: "Stingy treasurer"
+  board: "true"
+
+bitofhope:
+  name: "bitofhope"
+  bio: "Ultimate host, comms officer"
+  board: "true"
+  
+tupsu:
+  name: "Tupsu"
+  bio: "Fuksi handler"
+  board: "true"
+  
+malzca:
+  name: "Malzca"
+  bio: "Frankfurter fakir"
+  board: "true"
+
+# From here on former members
+
 taqtaq:
   name: "taQtaQ"
   bio: "Chairman of the board"
-  board: "true"
+  board: "false"
   
 fireflower:
   name: "FireFlower"
   bio: "Vice-Chairman"
-  board: "true"
+  board: "false"
   
 chaser:
   name: "Chaser"
   bio: "All Mighty Secretary, Upkeeper of this site"
-  board: "true"
+  board: "false"
   
 mpioin:
   name: "mPioin"
   bio: "Ultimate Clubroom host"
-  board: "true"
+  board: "false"
 
 nekoantenni:
   name: "NekoAntenni"
   bio: "Anime watcher. Made this website."
   board: "false"
   
-dorks:
-  name: "DarkSekai"
-  bio: "Stingy treasurer"
-  board: "true"
-  
 subject:
   name: "Subject F"
   bio: "Clubroom Fairy"
-  board: "true"
-
-sassan:
-  name: "Sassan"
-  bio: "Fuksi handler"
-  board: "true"
+  board: "false"
   
