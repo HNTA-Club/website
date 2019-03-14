@@ -2,6 +2,8 @@
 main:
   - title: "News"
     url: /news/index.html
+  - title: "Events"
+    url: /calendar/
   - title: "Gallery"
     url: /gallery/
   - title: "About Us"
@@ -33,3 +35,9 @@ info:
     url: /Honor/
   - title: "Frequently Asked Questions"
     url: /faq/
+    
+events:
+  - title: "Calendar"
+    url: /calendar/
+  - title: "Events overview"
+    url: /events/
