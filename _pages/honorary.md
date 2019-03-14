@@ -29,3 +29,6 @@ Honorary members and Honorary Chairmen are people who have positively affected t
 - Vesa Koskela
 - Matti Hautala
 - Elina Lukkarinen
+- Teemu Koho
+- Matti Rasinen
+- Anton Muravev
