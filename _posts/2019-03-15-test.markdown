@@ -1,0 +1,7 @@
+---
+author: Gegguli
+categories: news
+
+---
+
+this is just to test some rss things
