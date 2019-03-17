@@ -1,24 +1,28 @@
 ---
-layout: single
-permalink: /status/
+layout: none
+permalink: /status/raw/
 ---
-Welcome to the status page HeNTAi clubroom.
 <html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNTA Clubroom Status</title>
+</head>
+
 <body>
 
-<img id="image" src="/assets/images/kancolle_office.gif">
-
+<p>Welcome to the status page of HNTA.</p>
 <p id="status">If you see this line, the status is not fetched. Try refreshing the page or contact the club authorities.</p>
-<p> Refresh the page to update the status.</p>
+<p>Refresh the page to update the status.</p>
+
 <script>
 	fetch("https://nkante.site:8080")
 		.then(function(response) {
 			if (response.ok) {
 		        response.text().then(function(contents) {
-					document.getElementById("status").innerHTML = contents;
-					if (contents.includes("<b>OFF</b>")) {
-    		    	document.getElementById("image").src = "/assets/images/kancolle_office_dark.gif";
-					}
+    		    	document.getElementById("status").innerHTML = contents;
 		        });
 			} else {
 				throw new Error("Status could not be retrieved. Please contact the club authorities.");
@@ -31,5 +35,3 @@ Welcome to the status page HeNTAi clubroom.
 </body>
 
 </html>
-
-Raw version of this page is also available [here](/status/raw).

@@ -4,6 +4,8 @@ main:
     url: /news/index.html
   - title: "Events"
     url: /calendar/
+  - title: "Status"
+    url: /status/
   - title: "Gallery"
     url: /gallery/
   - title: "About Us"
