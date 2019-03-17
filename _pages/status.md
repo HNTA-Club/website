@@ -6,7 +6,7 @@ Welcome to the status page HeNTAi clubroom.
 <html>
 <body>
 
-<img id="image" src="/assets/images/kancolle_office.gif">
+<img id="image" src="/assets/images/kancolle_office_dark.gif">
 
 <p id="status">If you see this line, the status is not fetched. Try refreshing the page or contact the club authorities.</p>
 <p> Refresh the page to update the status.</p>
@@ -16,8 +16,8 @@ Welcome to the status page HeNTAi clubroom.
 			if (response.ok) {
 		        response.text().then(function(contents) {
 					document.getElementById("status").innerHTML = contents;
-					if (contents.includes("<b>OFF</b>")) {
-    		    	document.getElementById("image").src = "/assets/images/kancolle_office_dark.gif";
+					if (contents.includes("<b>ON</b>")) {
+    		    	document.getElementById("image").src = "/assets/images/kancolle_office_bright.gif";
 					}
 		        });
 			} else {
