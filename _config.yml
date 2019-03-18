@@ -23,9 +23,9 @@ footer:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/uZJqHH7"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/tut.hentai"  
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+#      url: "https://www.facebook.com/tut.hentai"  
       
 # Reading Files
 include:
@@ -95,7 +95,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /news/page:num/
-timezone: Europe/Helsinki
+#timezone: Europe/Helsinki
 
 
 # Plugins (previously gems:)
