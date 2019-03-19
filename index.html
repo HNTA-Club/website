@@ -32,3 +32,24 @@ feature_row:
 ---
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
+<center>
+<p id="status">Clubroom status not found!</p>
+</center>
+<script>
+	fetch("https://nkante.site:8080")
+		.then(function(response) {
+			if (response.ok) {
+		        response.text().then(function(contents) {
+					if (contents.includes("<b>ON</b>")) {
+    		    	document.getElementById("status").innerHTML = "Clubroom lights are <b>ON</b>";
+					} else {
+    		    	document.getElementById("status").innerHTML = "Clubroom lights are <b>OFF</b>";
+					}
+		        });
+			} else {
+				throw new Error("Status could not be retrieved. Please contact the club authorities.");
+			}
+		}).catch(function(error) {
+			document.getElementById("status").innerText = error.message;
+		});
+</script>
