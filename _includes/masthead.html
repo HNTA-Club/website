@@ -2,8 +2,11 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
+		<ul>
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <ul class="visible-links">
+        <a class="site-subtitle" href="{{ '/' | relative_url }}">{{ site.subtitle }}</a>
+        </ul>
+		<ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             {%- if link.url contains '://' -%}
               {%- assign url = link.url -%}

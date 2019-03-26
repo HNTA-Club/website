@@ -2,7 +2,8 @@
 #
 theme: minimal-mistakes-jekyll
 locale: "en"
-title: "Anime Club HeNTAi"
+title: "HeNTAi"
+subtitle: "Herwannan Nykyaikain Teekkarein Animaatioiltamat"
 title_separator: "-"
 name: "HeNTAi board"
 description: "TUT anime club website"
