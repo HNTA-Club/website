@@ -22,4 +22,4 @@ For more information on the time, please check our calendar or ask me on irc or 
 
 **[Kara no Kyoukai 7: Satsujin Kousatsu (Kou)](https://myanimelist.net/anime/5205/)**
 
-**[Kara no Kyoukai Remix: Gate of Seventh Heaven](https://myanimelist.net/anime/6624/)**
+**[Kara no Kyoukai: Mirai Fukuin](https://myanimelist.net/anime/14807/)**
