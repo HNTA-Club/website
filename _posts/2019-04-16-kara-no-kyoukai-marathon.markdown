@@ -22,4 +22,6 @@ For more information on the time, please check our calendar or ask me on irc or 
 
 **[Kara no Kyoukai 7: Satsujin Kousatsu (Kou)](https://myanimelist.net/anime/5205/)**
 
+**[Kara no Kyoukai 8: Shuushou](https://myanimelist.net/anime/6954/)**
+
 **[Kara no Kyoukai: Mirai Fukuin](https://myanimelist.net/anime/14807/)**
