@@ -11,6 +11,7 @@ Honorary members and Honorary Chairmen are people who have positively affected t
 - Ilkka Niemi
 - Ville Piirainen
 - Miko Mäkinen
+- Konsta Turja
 
 **Honorary Members**
 - Tuukka Koskenmäki
@@ -32,3 +33,5 @@ Honorary members and Honorary Chairmen are people who have positively affected t
 - Teemu Koho
 - Matti Rasinen
 - Anton Muravev
+- Markku Hyttinen
+
