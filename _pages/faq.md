@@ -5,6 +5,13 @@ sidebar:
   nav: "info"
 ---
 
+- **Where is the clubroom?**
+
+  Our clubroom is located in the basement of sähkötalo.
+  Check this old map for more accurate location.
+  ![Skellari map](/assets/images/skellarinkartta.png)
+  Maybe someday we will make a updated english map.
+
 - **The door to the basement is closed, how do I get in?**
 
   The door closes at 18:00, after that you need to have the permission on your student card.
