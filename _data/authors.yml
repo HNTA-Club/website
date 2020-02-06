@@ -1,16 +1,26 @@
 sassan:
   name: "Sassan"
-  bio: "Chairman of the Board"
+  bio: "Chairman of the Board / ☆President☆"
   board: "true"
   
+argent:
+  name: "Argent"
+  bio: "Vice President"
+  board: "true"
+
 gegguli:
   name: "Gegguli"
-  bio: "Vice-chairman, Ultimate hostess"
+  bio: "Secretary / Ultimate Hostess / Member Responsible"
   board: "true"
   
-sonozaki:
-  name: "Sonozaki"
-  bio: "Secretary"
+shatter:
+  name: "Shatter"
+  bio: "Tentacle Trap"
+  board: "true"
+
+chaser:
+  name: "Chaser"
+  bio: "Frankfurter Fakir mk. II / Occasional Keeper of the Site"
   board: "true"
   
 dorks:
@@ -20,19 +30,14 @@ dorks:
 
 bitofhope:
   name: "bitofhope"
-  bio: "Ultimate host, comms officer"
-  board: "true"
-  
-tupsu:
-  name: "Tupsu"
-  bio: "Fuksi handler"
-  board: "true"
-  
-malzca:
-  name: "Malzca"
-  bio: "Frankfurter fakir"
+  bio: "Comms Commissar / Long Time Admin, First Time Committer"
   board: "true"
 
+senpai:
+  same: "Senpai"
+  bio: "Treasurer's Slave"
+  board: "true"
+  
 # From here on former members
 
 taqtaq:
@@ -43,11 +48,6 @@ taqtaq:
 fireflower:
   name: "FireFlower"
   bio: "Vice-Chairman"
-  board: "false"
-  
-chaser:
-  name: "Chaser"
-  bio: "All Mighty Secretary, Upkeeper of this site"
   board: "false"
   
 mpioin:
@@ -65,3 +65,18 @@ subject:
   bio: "Clubroom Fairy"
   board: "false"
   
+sonozaki:
+  name: "Sonozaki"
+  bio: "Secretary"
+  board: "false"
+  
+tupsu:
+  name: "Tupsu"
+  bio: "Fuksi handler"
+  board: "false"
+  
+malzca:
+  name: "Malzca"
+  bio: "Frankfurter fakir"
+  board: "false"
+
