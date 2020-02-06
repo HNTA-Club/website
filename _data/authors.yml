@@ -34,7 +34,7 @@ bitofhope:
   board: "true"
 
 senpai:
-  same: "Senpai"
+  name: "Senpai"
   bio: "Treasurer's Slave"
   board: "true"
   
