@@ -5,7 +5,7 @@ sassan:
   
 argent:
   name: "Argent"
-  bio: "Vice President"
+  bio: "Vice President / Tentacle Trap"
   board: "true"
 
 gegguli:
@@ -15,7 +15,7 @@ gegguli:
   
 shatter:
   name: "Shatter"
-  bio: "Tentacle Trap"
+  bio: "Clubroom Fairy"
   board: "true"
 
 chaser:
@@ -35,7 +35,7 @@ bitofhope:
 
 senpai:
   name: "Senpai"
-  bio: "Treasurer's Slave"
+  bio: "Treasurer's Slave / Clubroom Fairy"
   board: "true"
   
 # From here on former members
