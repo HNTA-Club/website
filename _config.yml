@@ -103,12 +103,10 @@ timezone: Europe/Helsinki
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
-  - jekyll-include-cache
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -116,7 +114,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-include-cache
 
 
 # Archives
