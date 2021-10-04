@@ -1,43 +1,43 @@
-sassan:
-  name: "Sassan"
-  bio: "Chairman of the Board / ☆President☆"
-  board: "true"
-  
 argent:
   name: "Argent"
-  bio: "Vice President / Tentacle Trap"
+  bio: "Chairman of the Board / President"
   board: "true"
 
-gegguli:
-  name: "Gegguli"
-  bio: "Secretary / Ultimate Hostess / Member Responsible"
+gravy_toni:
+  name: "gravy toni"
+  bio: "Vice President"
+  board: "true"
+
+sassan:
+  name: "Sassan"
+  bio: "Secretary"
   board: "true"
   
-shatter:
-  name: "Shatter"
+senpai:
+  name: "Senpai"
+  bio: "Treasurer"
+  board: "true"
+
+rhoenen:
+  name: "Rhoenen"
   bio: "Clubroom Fairy"
   board: "true"
 
-chaser:
-  name: "Chaser"
-  bio: "Frankfurter Fakir mk. II / Occasional Keeper of the Site"
+15ducks:
+  name: "15ducks"
+  bio: "Tentacle Trap"
   board: "true"
   
-dorks:
-  name: "DarkSekai"
-  bio: "Stingy treasurer"
-  board: "true"
-
 bitofhope:
   name: "bitofhope"
-  bio: "Comms Commissar / Long Time Admin, First Time Committer"
+  bio: "Ultimate Host"
   board: "true"
 
-senpai:
-  name: "Senpai"
-  bio: "Treasurer's Slave / Clubroom Fairy"
+shatter:
+  name: "Shatter"
+  bio: "Communications Commissar"
   board: "true"
-  
+
 # From here on former members
 
 taqtaq:
@@ -78,5 +78,20 @@ tupsu:
 malzca:
   name: "Malzca"
   bio: "Frankfurter fakir"
+  board: "false"
+
+gegguli:
+  name: "Gegguli"
+  bio: "Secretary / Ultimate Hostess / Member Responsible"
+  board: "false"
+  
+chaser:
+  name: "Chaser"
+  bio: "Frankfurter Fakir mk. II / Occasional Keeper of the Site"
+  board: "false"
+  
+dorks:
+  name: "DarkSekai"
+  bio: "Stingy treasurer"
   board: "false"
 
