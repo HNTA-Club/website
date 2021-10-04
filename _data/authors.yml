@@ -44,12 +44,12 @@ taqtaq:
   name: "taQtaQ"
   bio: "Chairman of the board"
   board: "false"
-  
+
 fireflower:
   name: "FireFlower"
   bio: "Vice-Chairman"
   board: "false"
-  
+
 mpioin:
   name: "mPioin"
   bio: "Ultimate Clubroom host"
@@ -59,22 +59,22 @@ nekoantenni:
   name: "NekoAntenni"
   bio: "Anime watcher. Made this website."
   board: "false"
-  
+
 subject:
   name: "Subject F"
   bio: "Clubroom Fairy"
   board: "false"
-  
+
 sonozaki:
   name: "Sonozaki"
   bio: "Secretary"
   board: "false"
-  
+
 tupsu:
   name: "Tupsu"
   bio: "Fuksi handler"
   board: "false"
-  
+
 malzca:
   name: "Malzca"
   bio: "Frankfurter fakir"
@@ -84,12 +84,12 @@ gegguli:
   name: "Gegguli"
   bio: "Secretary / Ultimate Hostess / Member Responsible"
   board: "false"
-  
+
 chaser:
   name: "Chaser"
   bio: "Frankfurter Fakir mk. II / Occasional Keeper of the Site"
   board: "false"
-  
+
 dorks:
   name: "DarkSekai"
   bio: "Stingy treasurer"
