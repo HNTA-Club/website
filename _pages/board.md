@@ -4,7 +4,7 @@ permalink: /board/
 sidebar:
   nav: "info"
 ---
-**HeNTAi Board 2020**
+**HeNTAi Board 2021**
 <ul>
   {% for author in site.data.authors %}
     {% if author[1].board == "true"%}
