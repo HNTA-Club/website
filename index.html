@@ -4,24 +4,16 @@ layout: splash
 header:
   image: /assets/images/main_splash2.jpg
 intro:
-  - excerpt: "Welcome to the website of HeNTAi, one of the biggest clubs in Tampere University!"
+  - excerpt: Welcome to the website of HeNTAi, one of the biggest clubs in Tampere University!
+  - excerpt: |
+    **Our activities include:**
+    - Watching anime in the clubroom or sometimes in lecture halls
+    - Hanging out at the clubroom
+    - Occasional projects, like a building a giant mecha
+    - Hosting events, like grilling or sauna.
+    - Attending events, like Tracon.
+    - Watching movies in lecture halls.
 
-  - excerpt: "**Our activities include:**
-
-   - Watching anime in the clubroom or sometimes in lecture halls
-
-   - Hanging out at the clubroom
-
-   - Occasional projects, like a building a giant mecha
-
-   - Hosting events, like grilling or sauna.
-
-   - Attending events, like Tracon.
-
-   - Watching movies in lecture halls.
-
-"
-  
 feature_row:
   - image_path: /assets/images/animeclub.jpg
     title: Self-deprecating humor!
@@ -33,85 +25,80 @@ feature_row:
 current_series:
   - title: Current series
     type: center
-    excerpt: "
-We watch two concurrent series chosen by our hosts on Fridays.
-Time and place is usually at 17:15 in our clubroom.
-Check our calendar for episodes we are watching on specific Friday.
-"
+    excerpt: |
+      We watch two concurrent series chosen by our hosts on Fridays.
+      Time and place is usually at 17:15 in our clubroom.
+      Check our calendar for episodes we are watching on specific Friday.
+
   - image_path: https://image.tmdb.org/t/p/original/lSRFvh4bMg4B9X2GaPPJIumBJsF.jpg
     type: left
     title: Upotte!!
-    excerpt: "
-Kiss kiss, bang bang! The arms race takes on a startling new development
-when the arms come with heads, legs and very feminine bodies attached!
+    excerpt: |
+      Kiss kiss, bang bang! The arms race takes on a startling new development
+      when the arms come with heads, legs and very feminine bodies attached!
 
+      Yes, at Seishou Academy every girl is literally a lethal weapon, and
+      they're all gunning for the top shot at getting their own personal
+      serviceman! Needless to say, it's going to be difficult for newly recruited
+      human instructor Genkoku to adjust to working with a living arsenal of high
+      caliber cuties with tricky names like FNC (Funko) M 16A4 (Ichiroku) L85A1
+      (Eru) and SG 550 (Shigu). Especially since many have hair triggers and
+      there's no bulletproof vest that can stop a really determined coed! He'll
+      have to rewrite the operator's manual on student/teacher relationships, and
+      pray that his job description won't include having to field strip and
+      reassemble one of his cadets in the dark. But unfortunately (for him) FNC's
+      already thinking about becoming HIS personal weapon, and she usually gets
+      what she aims for!
 
-Yes, at Seishou Academy every girl is literally a lethal weapon, and
-they're all gunning for the top shot at getting their own personal
-serviceman! Needless to say, it's going to be difficult for newly recruited
-human instructor Genkoku to adjust to working with a living arsenal of high
-caliber cuties with tricky names like FNC (Funko) M 16A4 (Ichiroku) L85A1
-(Eru) and SG 550 (Shigu). Especially since many have hair triggers and
-there's no bulletproof vest that can stop a really determined coed! He'll
-have to rewrite the operator's manual on student/teacher relationships, and
-pray that his job description won't include having to field strip and
-reassemble one of his cadets in the dark. But unfortunately (for him) FNC's
-already thinking about becoming HIS personal weapon, and she usually gets
-what she aims for!
-
-
-(Source: Sentai Filmworks)
-"
+      (Source: Sentai Filmworks)
   - image_path: https://image.tmdb.org/t/p/original/620mZ7Lo8B1681F2ts4HeBIkLRz.jpg
     type: right
-    title: "Panty & Stocking with Garterbelt"
-    excerpt: "
-The "Anarchy Sisters," Panty and Stocking, have been kicked out of Heaven
-for, to put it mildly, misbehaving. Led by a priest named Garterbelt, these
-angels must buy their way back by exterminating ghosts in Daten City. But
-this task requires unconventional weapons for these unorthodox angels—they
-transform their lingerie into weapons to dispatch the spirits.
-Unfortunately, neither of them take their duties seriously, as they rather
-spend their time in pursuit of other "hobbies": Panty prefers to sleep with
-anything that walks, and Stocking favors stuffing her face with sweets than
-hunting ghosts.
+    title: Panty & Stocking with Garterbelt
+    excerpt: |
+      The "Anarchy Sisters," Panty and Stocking, have been kicked out of Heaven
+      for, to put it mildly, misbehaving. Led by a priest named Garterbelt, these
+      angels must buy their way back by exterminating ghosts in Daten City. But
+      this task requires unconventional weapons for these unorthodox angels—they
+      transform their lingerie into weapons to dispatch the spirits.
+      Unfortunately, neither of them take their duties seriously, as they rather
+      spend their time in pursuit of other "hobbies": Panty prefers to sleep with
+      anything that walks, and Stocking favors stuffing her face with sweets than
+      hunting ghosts.
 
+      Follow these two unruly angels as they battle ghosts, an overflow of bodily
+      fluids, and their own tendency to get side-tracked in Panty & Stocking with
+      Garterbelt.
 
-Follow these two unruly angels as they battle ghosts, an overflow of bodily
-fluids, and their own tendency to get side-tracked in Panty & Stocking with
-Garterbelt.
-
-
-[Written by MAL Rewrite]
-"
-
+      [Written by MAL Rewrite]
 ---
 {% include feature_row id="intro" type="center" %}
 {% include current_series %}
+
 <center>
 Images courtesy of <a href="https://www.themoviedb.org/">TMDB</a>.
+
 <!--
-<p id="status">Clubroom status not found!</p>
+  <p id="status">Clubroom status not found!</p>
 -->
 </center>
 <!-- RIP Clubroom light detector
-<script>
+  <script>
     fetch("https://nkante.site:8080")
-        .then(function(response) {
-            if (response.ok) {
-                response.text().then(function(contents) {
-                    if (contents.includes("<b>ON</b>")) {
-                        document.getElementById("status").innerHTML = "Clubroom lights are <b>ON</b>";
-                    } else {
-                        document.getElementById("status").innerHTML = "Clubroom lights are <b>OFF</b>";
-                    }
-                });
+      .then(function(response) {
+        if (response.ok) {
+          response.text().then(function(contents) {
+            if (contents.includes("<b>ON</b>")) {
+              document.getElementById("status").innerHTML = "Clubroom lights are <b>ON</b>";
             } else {
-                throw new Error("Status could not be retrieved. Please contact the club authorities.");
+              document.getElementById("status").innerHTML = "Clubroom lights are <b>OFF</b>";
             }
-        }).catch(function(error) {
-            document.getElementById("status").innerText = error.message;
-        });
+          });
+        } else {
+          throw new Error("Status could not be retrieved. Please contact the club authorities.");
+        }
+      }).catch(function(error) {
+    document.getElementById("status").innerText = error.message;
+  });
 </script>
 -->
 
