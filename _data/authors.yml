@@ -1,44 +1,51 @@
-argent:
-  name: "Argent"
-  bio: "Chairman of the Board / President"
+# Current board members 2023
+
+yed:
+  name: "YED"
+  bio: "Vice President / Tentacle Trap"
   board: "true"
 
-gravy_toni:
-  name: "gravy toni"
-  bio: "Vice President"
-  board: "true"
-
-sassan:
-  name: "Sassan"
+take:
+  name: "Takeshi"
   bio: "Secretary"
   board: "true"
   
-senpai:
-  name: "Senpai"
+jake:
+  name: "Jake Sktq"
   bio: "Treasurer"
   board: "true"
 
 rhoenen:
   name: "Rhoenen"
-  bio: "Clubroom Fairy"
+  bio: "President"
   board: "true"
 
 15ducks:
   name: "15ducks"
-  bio: "Tentacle Trap"
+  bio: "Communications Comissar / Member Responsible"
   board: "true"
   
 bitofhope:
-  name: "bitofhope"
+  name: "Bitofhope"
   bio: "Ultimate Host"
   board: "true"
+  
+olson: 
+  name: "Olson"
+  bio: "Clubroom Fairy"
+  board: "true"
+
+# From here on former members
 
 shatter:
   name: "Shatter"
   bio: "Communications Commissar"
-  board: "true"
-
-# From here on former members
+  board: "false"
+  
+argent:
+  name: "Argent"
+  bio: "Chairman of the Board / President"
+  board: "false"
 
 taqtaq:
   name: "taQtaQ"
