@@ -4,11 +4,11 @@ permalink: /about/
 sidebar:
   nav: "info"
 ---
-HeNTAi is TUT's anime club, which organizes animation and manga related activities for the students of TUT.
+HeNTAi is TUNI's anime club, which organizes animation and manga related activities for students.
 
 Students can join the club for a tiny fee of 0 yen.
 
-The clubroom is situated in the basement of SÃ¤hkotalo.
+The clubroom is situated in the basement of SŠhkotalo.
 
 In the clubroom you can read manga, enjoy audiovisual entertainment or just have a breather when other guilds and clubs are busy.
 
