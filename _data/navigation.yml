@@ -34,3 +34,5 @@ events:
     url: /calendar/
   - title: "Events overview"
     url: /events/
+  - title: "Karaoke"
+    url: /karaoke/
