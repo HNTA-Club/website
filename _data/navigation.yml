@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "News"
-    url: /news/index.html
+  #- title: "News"
+   # url: /news/index.html
   - title: "Events"
     url: /calendar/
   - title: "Status"
