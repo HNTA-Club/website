@@ -7,4 +7,4 @@ sidebar:
 
 The karaoke songs available: 
 
-<iframe width='1000' height='100%' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTFHxMlqkQW-aVmnz8IcB1w6glfoY0WNsu-EtIlCPBNzEK38UfJAwWJGHAmQErX9zcQdwL8XLyrr7FI/pubhtml?gid=206379915&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width='1050' height='2000' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTFHxMlqkQW-aVmnz8IcB1w6glfoY0WNsu-EtIlCPBNzEK38UfJAwWJGHAmQErX9zcQdwL8XLyrr7FI/pubhtml?gid=206379915&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
