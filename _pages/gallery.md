@@ -5,7 +5,7 @@ header:
   image: /assets/images/gallery/hnta.jpg
 
 overall_patches:
-   - url: /hnta-club/hnta-website/downloads/tunited_away.png
+   - url: hnta-club/hnta-website/downloads/tunited_away.png
    
 2018_renovation:
    - url: /assets/images/gallery/2018_renovation/1.jpg
