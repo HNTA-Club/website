@@ -17,8 +17,8 @@ overall_patches:
    - url: /assets/images/evantuni.png
      image_path: /assets/images/evantuni.png
      title: "Our overall patches."
-   - url: /assets/images/vanha_pyorea.png
-     image_path: /assets/images/vanha_pyorea.png
+   - url: /assets/images/vanha_pyorea.jpg
+     image_path: /assets/images/vanha_pyorea.jpg
      title: "Our overall patches."
    - url: /assets/images/finnthin.png
      image_path: /assets/images/finnthin.png
