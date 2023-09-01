@@ -4,7 +4,9 @@ permalink: /gallery/
 header:
   image: /assets/images/gallery/hnta.jpg
 
-
+overall_patches:
+   - url: /hnta-club/hnta-website/downloads/tunited_away.png
+   
 2018_renovation:
    - url: /assets/images/gallery/2018_renovation/1.jpg
      image_path: /assets/images/gallery/2018_renovation/1.jpg
@@ -64,6 +66,7 @@ header:
 
 ---
 # HeNTAi Gallery
+{% include gallery id="overall_patches" caption="Our overall patches" %}
 {% include gallery id="2018_renovation" caption="Glorious clubroom renovation of 2018" %}
 {% include gallery id="2018_spring_meeting" caption="Spring meeting 2018" %}
 {% include gallery id="2012_happitakkiprojekti" caption="Project happicoat 2012" %}
