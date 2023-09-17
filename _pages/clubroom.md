@@ -2,12 +2,15 @@
 layout: single
 permalink: /clubroom/
 ---
-Welcome to the clubroom page HeNTAi.
+Welcome to the clubroom page HeNTAi. <br>
+Here you can view whether the clubroom is open or not. <br>
+Door bot currently out of commission. 
+
 <html>
 <body>
 
 <img id="image" src="/assets/images/kancolle_office_dark.gif">
-
+<!--
 <p id="status">If you see this line, the status is not fetched. Try refreshing the page or contact the club authorities.</p>
 <p> Refresh the page to update the status.</p>
 <script>
@@ -33,3 +36,4 @@ Welcome to the clubroom page HeNTAi.
 </html>
 
 Raw version of this page is also available [here](/status/raw).
+-->
