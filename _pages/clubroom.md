@@ -1,6 +1,9 @@
 ---
 layout: single
 permalink: /clubroom/
+classes: wide
+sidebar:
+ nav: "clubroom"
 ---
 Welcome to the clubroom page HeNTAi. <br>
 Here you can view whether the clubroom is open or not. <br>
