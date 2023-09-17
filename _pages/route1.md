@@ -11,6 +11,6 @@ pics:
      type: center
 ---
 # Route 1
-{% include pics %}
+{% include route1 id="pics" %}
 
 This page will have the route 1 photos. 
