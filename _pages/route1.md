@@ -4,12 +4,13 @@ permalink: /route1/
 sidebar:
   nav: "clubroom"
 
-route1:
+pics:
    - url: /assets/images/clubroom/Route 1/route1_1.png
      image_path: /assets/images/clubroom/Route 1/route1_1.png
      title: "Pic 1"
+     type: center
 ---
 # Route 1
-{% include route1 id="route1" type="center" %}
+{% include pics %}
 
 This page will have the route 1 photos. 
