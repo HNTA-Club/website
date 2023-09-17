@@ -36,3 +36,15 @@ events:
     url: /events/
   - title: "Karaoke"
     url: /karaoke/
+    
+routes: 
+  - title: "Route 1 to clubroom"
+    url: /route1/
+  - title: "Route 2 to clubroom"
+    url: /route2/
+  - title: "Route 3 to clubroom"
+    url: /route3/
+  - title: "Route 4 to clubroom"
+    url: /route4/
+
+    
