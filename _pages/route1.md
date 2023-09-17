@@ -5,11 +5,11 @@ sidebar:
   nav: "clubroom"
 
 route1:
-   - url: /assets/images/clubroom/Route 1/route1_1.PNG
-     image_path: /assets/images/clubroom/Route 1/route1_1.PNG
-     type: center
+   - url: /assets/images/clubroom/Route 1/route1_1.png
+     image_path: /assets/images/clubroom/Route 1/route1_1.png
+     title: "Pic 1"
 ---
 # Route 1
-{% include id="route1" type="center" %}
+{% include route1 id="route1" type="center" %}
 
 This page will have the route 1 photos. 
