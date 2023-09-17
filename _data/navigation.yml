@@ -37,7 +37,9 @@ events:
   - title: "Karaoke"
     url: /karaoke/
     
-routes: 
+clubroom: 
+  - title: "Clubroom status"
+    url: /clubroom/
   - title: "Route 1 to clubroom"
     url: /route1/
   - title: "Route 2 to clubroom"
