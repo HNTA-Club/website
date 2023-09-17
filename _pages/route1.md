@@ -7,10 +7,20 @@ sidebar:
 pics:
    - url: /assets/images/clubroom/Route 1/route1_1.png
      image_path: /assets/images/clubroom/Route 1/route1_1.png
-     title: "Pic 1"
-     type: center
+   - url: /assets/images/clubroom/Route 1/route1_2.PNG
+     image_path: /assets/images/clubroom/Route 1/route1_2.PNG
+   - url: /assets/images/clubroom/Route 1/route1_3.PNG
+     image_path: /assets/images/clubroom/Route 1/route1_3.PNG
+   - url: /assets/images/clubroom/Route 1/route2_4.PNG
+     image_path: /assets/images/clubroom/Route 1/route2_4.PNG
+   - url: /assets/images/clubroom/Route 1/route2_5.PNG
+     image_path: /assets/images/clubroom/Route 1/route2_5.PNG
+   - url: /assets/images/clubroom/Route 1/route2_6.PNG
+     image_path: /assets/images/clubroom/Route 1/route2_6.PNG
+   - url: /assets/images/clubroom/Route 1/route2_7.PNG
+     image_path: /assets/images/clubroom/Route 1/route2_7.PNG
+   - url: /assets/images/clubroom/Route 1/route2_final.PNG
+     image_path: /assets/images/clubroom/Route 1/route2_final.PNG
 ---
 # Route 1
-{% include feature_row id="pics" %}
-
-This page will have the route 1 photos. 
+{% include feature_row id="pics" type="center" %}
