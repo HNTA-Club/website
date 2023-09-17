@@ -23,4 +23,4 @@ pics:
      image_path: /assets/images/clubroom/Route 1/route2_final.PNG
 ---
 # Route 1
-{% include current_series id="pics" type="center" %}
+{% include images id="pics" type="center" %}
