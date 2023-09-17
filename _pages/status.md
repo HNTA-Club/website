@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /clubroom/
+permalink: /status/
 ---
 Welcome to the clubroom page HeNTAi.
 <html>
