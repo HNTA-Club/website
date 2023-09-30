@@ -5,7 +5,7 @@ classes: wide
 sidebar:
  nav: "clubroom"
 ---
-Welcome to the clubroom page HeNTAi. <br>
+Welcome to the clubroom page of HeNTAi. <br>
 Here you can view whether the clubroom is open or not. <br>
 Door bot currently out of commission. 
 
