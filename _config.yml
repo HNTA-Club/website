@@ -6,7 +6,7 @@ title: "HeNTAi"
 subtitle: "Herwannan Nykyaikain Teekkarein Animaatioiltamat"
 title_separator: "-"
 name: "HeNTAi board"
-description: "TUT anime club website"
+description: "TUNI's anime club website"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 myanimelist: "HeNTaiTUT"
