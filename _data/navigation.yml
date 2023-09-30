@@ -42,6 +42,8 @@ events:
 clubroom: 
   - title: "Clubroom status"
     url: /clubroom/
+  - title: "Loanable manga"
+    url: /manga/
   - title: "Route 1 to clubroom"
     url: /route1/
   - title: "Route 2 to clubroom"
