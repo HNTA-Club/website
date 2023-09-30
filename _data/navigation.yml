@@ -12,7 +12,7 @@ main:
     url: /about/
   - title: "Join Us"
     url: https://docs.google.com/forms/d/e/1FAIpQLSf67NEtpTCv2rMt11txN0tdSww6GAn-4E910_04jFbkSs3iDQ/viewform?usp=sf_link
-  - tite: "Member Survey"
+  - title: "Member Survey"
     url: https://docs.google.com/forms/d/e/1FAIpQLSeaAAeeQ9td-r0IsVWfFvT12akyUIQ7cvg1ulCrLLN-mcjr9w/viewform?usp=sf_link
 
 secret:
