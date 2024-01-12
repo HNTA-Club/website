@@ -85,10 +85,13 @@ menettelyllään kerhossa tai sen ulkopuolella huomattavasti vahingoittanut
 kerhoa tai ei enää täytä laissa taikka kerhon säännöissä mainittuja jäsenyyden
 ehtoja.
 
-Jos kerhon jäsen käyttäytymisellään tai toiminnallaan tahallisesti vaikeuttaa
-kerhon toimintaa tai kerhon edustajana tai kerhon järjestämässä tilaisuudessa
-aiheuttaa julkista pahennusta, voi hallitus kieltää jäseneltä osallistumisen
-kerhon järjestämiin tilaisuuksiin ja/tai kerhohuoneella olemiseen määräajaksi.
+Yhdistyksen jäsenelle voidaan kohdistaa kurinpitotoimia, mikäli tämä on 
+menettelyllään yhdistyksessä tai sen ulkopuolella huomattavasti vahingoittanut
+yhdistyksen tai sen jäsenten mainetta tai hyvinvointia. Kurinpitotoimina voidaan
+käyttää porttikieltoa määräajaksi kerhon järjestämiin tilaisuuksiin tai 
+kerhohuoneelle sekä kerhon etänä tapahtuvaan toimintaan ja keskustelualustoille,
+esimerkiksi Discord-palveluun. Päätösvalta kurinpitotoimien käyttämisessä on
+yhdistyksen hallituksella.
 
 Tilanteessa, jossa jäsen eroaa kerhosta tai hänet erotetaan kerhosta, ei
 vuosimaksua ja/tai liittymismaksua palauteta jäsenelle ja jäsenen tulee maksaa
@@ -269,5 +272,5 @@ jälkimmäisen purkamisesta päättäneen kokouksen tavalla.
 
 ## 15§ Voimaantulo
 
-Nämä säännöt astuvat voimaan 14.11.2019
+Nämä säännöt astuvat voimaan 01.12.2022.
 

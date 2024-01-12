@@ -5,23 +5,29 @@ header:
   image: /assets/images/gallery/hnta.jpg
 
 overall_patches:
-   - url: /assets/images/yaratuni.png
-     image_path: /assets/images/yaratuni.png
+   - url: /assets/images/overall_patches/tunigundam.png
+     image_path: /assets/images/overall_patches/tunigundam.png
      title: "Our overall patches."
-   - url: /assets/images/tunited_away.png
-     image_path: /assets/images/tunited_away.png
+   - url: /assets/images/overall_patches/everythingisfine.png
+     image_path: /assets/images/overall_patches/everythingisfine.png
      title: "Our overall patches."
-   - url: /assets/images/hentai.png
-     image_path: /assets/images/hentai.png
+   - url: /assets/images/overall_patches/yaratuni.png
+     image_path: /assets/images/overall_patches/yaratuni.png
      title: "Our overall patches."
-   - url: /assets/images/evantuni.png
-     image_path: /assets/images/evantuni.png
+   - url: /assets/images/overall_patches/tunited_away.png
+     image_path: /assets/images/overall_patches/tunited_away.png
      title: "Our overall patches."
-   - url: /assets/images/vanha_pyorea.jpg
-     image_path: /assets/images/vanha_pyorea.jpg
+   - url: /assets/images/overall_patches/hentai.png
+     image_path: /assets/images/overall_patches/hentai.png
      title: "Our overall patches."
-   - url: /assets/images/finnthin.png
-     image_path: /assets/images/finnthin.png
+   - url: /assets/images/overall_patches/evantuni.png
+     image_path: /assets/images/overall_patches/evantuni.png
+     title: "Our overall patches."
+   - url: /assets/images/overall_patches/vanha_pyorea.jpg
+     image_path: /assets/images/overall_patches/vanha_pyorea.jpg
+     title: "Our overall patches."
+   - url: /assets/images/overall_patches/finnthin.png
+     image_path: /assets/images/overall_patches/finnthin.png
      title: "Our overall patches."
    
 2018_renovation:

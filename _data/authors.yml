@@ -1,17 +1,17 @@
-# Current board members 2023
+# Current board members 2024
 
-yed:
-  name: "YED"
-  bio: "Vice President / Tentacle Trap"
+ducks:
+  name: "Ducks"
+  bio: "Vice President / Graphic Designer / IT-responsible"
   board: "true"
 
-take:
-  name: "Takeshi"
+spaketti:
+  name: "Spaketti / Assistant Host"
   bio: "Secretary"
   board: "true"
   
-jake:
-  name: "Jake Sktq"
+olson:
+  name: "Olson"
   bio: "Treasurer"
   board: "true"
 
@@ -20,8 +20,8 @@ rhoenen:
   bio: "President"
   board: "true"
 
-15ducks:
-  name: "15ducks"
+dralyon:
+  name: "Dralyon"
   bio: "Communications Comissar / Member Responsible"
   board: "true"
   
@@ -30,12 +30,37 @@ bitofhope:
   bio: "Ultimate Host"
   board: "true"
   
-olson: 
-  name: "Olson"
+niko:
+  name: "Niko"
+  bio: "Assistant Host / IT-assistant"
+  board: "true"
+
+pasi: 
+  name: "Pasi"
+  bio: "Karaoke Master"
+  board: "true"
+
+blue: 
+  name: "Blue"
+  bio: "Communications Assistant"
+  board: "true"
+
+igneria: 
+  name: "Igneria"
   bio: "Clubroom Fairy"
   board: "true"
 
 # From here on former members
+
+yed: 
+  name: "YED"
+  bio: "Vice President"
+  board: "false"
+
+jake: 
+  name: "Jake"
+  bio: "Treasurer"
+  board: "false"
 
 shatter:
   name: "Shatter"
