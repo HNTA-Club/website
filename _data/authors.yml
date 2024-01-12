@@ -6,8 +6,8 @@ ducks:
   board: "true"
 
 spaketti:
-  name: "Spaketti / Assistant Host"
-  bio: "Secretary"
+  name: "Spaketti"
+  bio: "Secretary / Assistant Host"
   board: "true"
   
 olson:
