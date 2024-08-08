@@ -9,9 +9,7 @@ name: "HeNTAi board"
 description: "TUNI's anime club website"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-header:
-  logo: "/assets/images/favicons_new/new_logo-96x96.png"
+logo: "/assets/images/favicons_new/new_logo-96x96.png"
 
 author:
   name: "HeNTAi board"
