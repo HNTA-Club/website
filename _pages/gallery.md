@@ -29,8 +29,8 @@ overall_patches:
    - url: /assets/images/overall_patches/finnthin.png
      image_path: /assets/images/overall_patches/finnthin.png
      title: "Our overall patches."
-   - url: /assets/images/overall_patches/voittaisin.jpg
-     image_path: /assets/images/overall_patches/voittaisin.jpg
+   - url: /assets/images/overall_patches/voittaisin.png
+     image_path: /assets/images/overall_patches/voittaisin.png
      title: "Our overall patches."
    - url: /assets/images/overall_patches/frieren.png
      image_path: /assets/images/overall_patches/frieren.png
