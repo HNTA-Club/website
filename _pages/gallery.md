@@ -5,6 +5,12 @@ header:
   image: /assets/images/gallery/hnta.jpg
 
 overall_patches:
+   - url: /assets/images/overall_patches/voittaisin.png
+     image_path: /assets/images/overall_patches/voittaisin.png
+     title: "Our overall patches."
+   - url: /assets/images/overall_patches/fieren.png
+     image_path: /assets/images/overall_patches/fieren.png
+     title: "Our overall patches."
    - url: /assets/images/overall_patches/tunigundam.png
      image_path: /assets/images/overall_patches/tunigundam.png
      title: "Our overall patches."
@@ -29,12 +35,7 @@ overall_patches:
    - url: /assets/images/overall_patches/finnthin.png
      image_path: /assets/images/overall_patches/finnthin.png
      title: "Our overall patches."
-   - url: /assets/images/overall_patches/voittaisin.png
-     image_path: /assets/images/overall_patches/voittaisin.png
-     title: "Our overall patches."
-   - url: /assets/images/overall_patches/frieren.png
-     image_path: /assets/images/overall_patches/frieren.png
-     title: "Our overall patches."
+
    
 2018_renovation:
    - url: /assets/images/gallery/2018_renovation/1.jpg
