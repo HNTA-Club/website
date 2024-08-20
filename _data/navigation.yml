@@ -32,8 +32,6 @@ info:
     url: /faq/
     
 events:
-  - title: "Calendar"
-    url: /calendar/
   - title: "Events overview"
     url: /events/
   - title: "Karaoke"
