@@ -3,7 +3,7 @@ main:
   #- title: "News"
    # url: /news/index.html
   - title: "Events"
-    url: /calendar/
+    url: /events/
   - title: "Clubroom"
     url: /clubroom/
   - title: "Gallery"
