@@ -10,9 +10,59 @@ spaketti:
   bio: "Vice President"
   board: "true"
 
+megagiganium:
+  name: "MegaGiganium"
+  bio: "Secretary, Karaoke Master"
+  board: "true"
+
+olson:
+  name: "Olson"
+  bio: "Treasurer, Clubroom Fairy"
+  board: "true"
+
+sampo:
+  name: "Sampo"
+  bio: "Ultimate Host"
+  board: "true"
+
+kulmikas:
+  name: "kulmikas"
+  bio: "Karaoke Assistant"
+  board: "true"
+
+tuyakbay:
+  name: "Tuyakbay"
+  bio: "Karaoke Goon"
+  board: "true"
+
 rextension:
   name: "Rextension"
   bio: "IT-responsible"
+  board: "true"
+
+erufailon4:
+  name: "Erufailon4"
+  bio: "Vice IT Responsible"
+  board: "true"
+
+hail_ankka:
+  name: "Hail_Ankka"
+  bio: "IT Assistant"
+  board: "true"
+
+tsuribori2:
+  name: "tsuribori2"
+  bio: "IT Assistant"
+  board: "true"
+
+vasu:
+  name: "vasu"
+  bio: "Event Official"
+  board: "true"
+
+niko:
+  name: "niko"
+  bio: "Event Official"
   board: "true"
 
 
@@ -36,16 +86,6 @@ ducks:
 igneria: 
   name: "Igneria"
   bio: "Clubroom Fairy"
-  board: "false"
-
-niko:
-  name: "Niko"
-  bio: "Assistant Host / IT-assistant"
-  board: "false"
-
-olson:
-  name: "Olson"
-  bio: "Treasurer"
   board: "false"
 
 pasi: 
