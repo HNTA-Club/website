@@ -3,7 +3,7 @@ layout: single
 permalink: /route3/
 sidebar:
   nav: "clubroom"
-  
+published: false
 pics:
    - url: /assets/images/clubroom/Route 3/route3_1.PNG
      image_path: /assets/images/clubroom/Route 3/route3_1.PNG

@@ -5,8 +5,11 @@ classes: wide
 sidebar:
  nav: "clubroom"
 ---
+
+The temporary clubroom is situated in Festia B third floor (FB307).
+
 Welcome to the clubroom page of HeNTAi. <br>
-Here you can view whether the clubroom is open or not. <br>
+<del>Here you can view whether the clubroom is open or not.</del> <br>
 Door bot currently out of commission. 
 
 <html>

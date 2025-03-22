@@ -1,56 +1,62 @@
-# Current board members 2024
+# Current board members 2025
+
+dralyon:
+  name: "Dralyon"
+  bio: "President"
+  board: "true"
+
+spaketti:
+  name: "Spaketti"
+  bio: "Vice President"
+  board: "true"
+
+rextension:
+  name: "Rextension"
+  bio: "IT-responsible"
+  board: "true"
+
+
+# From here on former members
 
 bitofhope:
   name: "Bitofhope"
   bio: "Ultimate Host"
-  board: "true"
+  board: "false"
 
 blue: 
   name: "Blue"
   bio: "Communications Assistant"
-  board: "true"
-
-dralyon:
-  name: "Dralyon"
-  bio: "Communications Comissar / Member Responsible"
-  board: "true"
+  board: "false"
 
 ducks:
   name: "Ducks"
   bio: "Vice President / Graphic Designer / IT-responsible"
-  board: "true"
+  board: "false"
 
 igneria: 
   name: "Igneria"
   bio: "Clubroom Fairy"
-  board: "true"
+  board: "false"
 
 niko:
   name: "Niko"
   bio: "Assistant Host / IT-assistant"
-  board: "true"
+  board: "false"
 
 olson:
   name: "Olson"
   bio: "Treasurer"
-  board: "true"
+  board: "false"
 
 pasi: 
   name: "Pasi"
   bio: "Karaoke Master"
-  board: "true"
+  board: "false"
 
 rhoenen:
   name: "Rhoenen"
   bio: "President"
-  board: "true"
-  
-spaketti:
-  name: "Spaketti"
-  bio: "Secretary / Assistant Host"
-  board: "true"
-
-# From here on former members
+  board: "false"
 
 yed: 
   name: "YED"

@@ -3,23 +3,20 @@ layout: single
 permalink: /faq/
 sidebar:
   nav: "info"
+
+pics:
+   - url: /assets/images/clubroom/Temp/temp_route.png
+     image_path: assets/images/clubroom/Temp/temp_route.png
+
 ---
+
 
 - **Where is the clubroom?**
 
-  Our clubroom is located in the basement of sähkötalo.
-  Check this old map for more accurate location.
-  ![Skellari map](/assets/images/skellarinkartta.png)
-  Maybe someday we will make a updated english map.
+The temporary clubroom is situated in Festia B third floor (FB307).
 
-- **The door to the basement is closed, how do I get in?**
+{% include images id="pics" type="center" %}
 
-  The door closes at 18:00, after that you need to have the permission on your student card.
-  If the clubroom is open you can just ping herhis on discord and ask someone to come open the door.
+- **The corridor door is locked, how do I get in?**
 
-
-- **How do I get permissions to the basement?**
-
-  The club can give you permissions to the basement as well as a key to the clubroom,
-  these are mainly given to members of the board, but can be given to especially active members.
-
+Check the <code>#events</code> channel on Discord and ping a board member present at the clubroom to ask them to open the door.

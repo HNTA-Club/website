@@ -13,7 +13,9 @@ HeNTAi is TUNI's anime club, which organizes animation and manga related activit
 
 Students can join the club for a tiny fee of 0 yen.
 
-The clubroom is situated in the basement of Sähkötalo.
+<del>The clubroom is situated in the basement of Sähkötalo.</del>
+
+The temporary clubroom is situated in Festia B third floor (FB307).
 
 In the clubroom you can read manga, enjoy audiovisual entertainment or just have a breather when other guilds and clubs are busy.
 
