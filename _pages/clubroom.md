@@ -4,13 +4,20 @@ permalink: /clubroom/
 classes: wide
 sidebar:
  nav: "clubroom"
+
+pics:
+   - url: /assets/images/clubroom/Temp/temp_route.png
+     image_path: assets/images/clubroom/Temp/temp_route.png
 ---
 
 The temporary clubroom is situated in Festia B third floor (FB307).
 
+{% include images id="pics" type="center" %}
+
 Welcome to the clubroom page of HeNTAi. <br>
 <del>Here you can view whether the clubroom is open or not.</del> <br>
-Door bot currently out of commission. 
+Door bot currently out of commission.
+Check <code>#events</code> channel on Discord to check if clubroom is open.
 
 <html>
 <body>

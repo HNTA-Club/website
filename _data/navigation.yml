@@ -42,13 +42,15 @@ clubroom:
     url: /clubroom/
   - title: "Loanable manga"
     url: /manga/
-  - title: "Route 1 to clubroom"
-    url: /route1/
-  - title: "Route 2 to clubroom"
-    url: /route2/
-  - title: "Route 3 to clubroom"
-    url: /route3/
-  - title: "Route 4 to clubroom"
-    url: /route4/
+  - title: "Route to clubroom"
+    url: /temp_route/
+  # - title: "Route 1 to clubroom"
+  #   url: /route1/
+  # - title: "Route 2 to clubroom"
+  #   url: /route2/
+  # - title: "Route 3 to clubroom"
+  #   url: /route3/
+  # - title: "Route 4 to clubroom"
+  #   url: /route4/
 
     
