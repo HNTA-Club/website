@@ -1,6 +1,7 @@
 # Welcome to Jekyll!
 #
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 locale: "en"
 title: "HeNTAi"
 subtitle: "Herwannan Nykyaikain Teekkarein Animaatioiltamat"
