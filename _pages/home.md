@@ -28,15 +28,15 @@ club_info:
     excerpt: "We have a clubroom!"
     btn_label: "Directions"
     btn_class: "btn--primary"
-  - title: Animekaraoke
-    url: /karaoke
-    excerpt: "We sing animekaraoke!"
-    btn_label: "List of songs"
-    btn_class: "btn--primary"
   - title: Discord
     url: https://discord.gg/uZJqHH7
     excerpt: "Join our Discord for event updates!"
     btn_label: "Discord"
+    btn_class: "btn--primary"
+  - title: Animekaraoke
+    url: /karaoke
+    excerpt: "We sing animekaraoke!"
+    btn_label: "List of songs"
     btn_class: "btn--primary"
 
 current_series:
@@ -47,7 +47,6 @@ current_series:
       Viewings will be hosted in the clubroom or a lecture hall, 5 p.m. on Friday. <br />
       Animekaraoke usually afterwards! <br />
       Be sure to join our <a href="https://discord.gg/uZJqHH7">Discord</a> for any sudden changes in our plans. <br />
-      The directions to our clubroom are at the Clubroom/Route pages. <br />
       The series we'll watch are down below!
 
   - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/8ViqUWPWh6aPZGQA57FMRVmaXZ1.jpg
@@ -79,6 +78,6 @@ outro:
 ---
 
 {% include feature_row id="intro" type="center" %}
-{% include feature_row id="club_info" type="center" %}
+{% include feature_row id="club_info" %}
 {% include current_series %}
 {% include feature_row id="outro" type="center" %}
