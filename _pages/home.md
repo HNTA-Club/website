@@ -10,17 +10,17 @@ excerpt: "Welcome to the website of HeNTAi, an anime hobby club of Tampere Unive
 
 club_info:
   - title: Clubroom
-      url: /clubroom
-      excerpt: "We have a clubroom!"
-      btn_label: "Directions"
+    url: /clubroom
+    excerpt: "We have a clubroom!"
+    btn_label: "Directions"
   - title: Animekaraoke
-      url: /karaoke
-      excerpt: "We sing animekaraoke!"
-      btn_label: "List of songs"
+    url: /karaoke
+    excerpt: "We sing animekaraoke!"
+    btn_label: "List of songs"
   - title: Discord
-      url: https://discord.gg/uZJqHH7
-      excerpt: "Join our Discord for event updates!"
-      btn_label: "Discord"
+    url: https://discord.gg/uZJqHH7
+    excerpt: "Join our Discord for event updates!"
+    btn_label: "Discord"
 
 intro:
   - excerpt: |
