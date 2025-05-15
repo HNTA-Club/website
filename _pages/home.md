@@ -79,6 +79,6 @@ outro:
 ---
 
 {% include feature_row id="intro" type="center" %}
-{% include feature_row id="club_info" %}
+{% include feature_row id="club_info" type="center" %}
 {% include current_series %}
 {% include feature_row id="outro" type="center" %}
