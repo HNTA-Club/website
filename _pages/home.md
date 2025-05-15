@@ -3,7 +3,7 @@ title: Yokoso!
 permalink: /
 layout: splash
 header:
-  overlay_image: /assets/images/main_splash2.jpg
+  overlay_image: /assets/images/dark_splash.jpg
   cta_label: "Join us on Discord"
   cta_url: "https://discord.gg/uZJqHH7"
 excerpt: "Welcome to the website of HeNTAi, an anime hobby club of Tampere University!"
