@@ -8,20 +8,6 @@ header:
   cta_url: "https://discord.gg/uZJqHH7"
 excerpt: "Welcome to the website of HeNTAi, an anime hobby club of Tampere University!"
 
-club_info:
-  - title: Clubroom
-    url: /clubroom
-    excerpt: "We have a clubroom!"
-    btn_label: "Directions"
-  - title: Animekaraoke
-    url: /karaoke
-    excerpt: "We sing animekaraoke!"
-    btn_label: "List of songs"
-  - title: Discord
-    url: https://discord.gg/uZJqHH7
-    excerpt: "Join our Discord for event updates!"
-    btn_label: "Discord"
-
 intro:
   - excerpt: |
       **Our activities include:**
@@ -34,6 +20,24 @@ intro:
         <li>Attending events, like Tracon</li>
         <li>Watching movies in lecture halls</li>
       </ul>
+
+club_info:
+  - title: Clubroom
+    image_path: 
+    url: /clubroom
+    excerpt: "We have a clubroom!"
+    btn_label: "Directions"
+    btn_class: "btn--primary"
+  - title: Animekaraoke
+    url: /karaoke
+    excerpt: "We sing animekaraoke!"
+    btn_label: "List of songs"
+    btn_class: "btn--primary"
+  - title: Discord
+    url: https://discord.gg/uZJqHH7
+    excerpt: "Join our Discord for event updates!"
+    btn_label: "Discord"
+    btn_class: "btn--primary"
 
 current_series:
   - title: Anime viewings every Friday
@@ -75,6 +79,6 @@ outro:
 ---
 
 {% include feature_row id="intro" type="center" %}
-{% include club_info %}
+{% include feature_row id="club_info" %}
 {% include current_series %}
 {% include feature_row id="outro" type="center" %}
