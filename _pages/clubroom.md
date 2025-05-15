@@ -12,41 +12,15 @@ pics:
 
 The temporary clubroom is situated in Festia B third floor (FB307).
 
-{% include images id="pics" type="center" %}
+# Route to temporary clubroom
 
-Welcome to the clubroom page of HeNTAi. <br>
-<del>Here you can view whether the clubroom is open or not.</del> <br>
-Door bot currently out of commission.
 Check <code>#events</code> channel on Discord to check if clubroom is open.
 
-<html>
-<body>
+<ol>
+    <li>Enter Festia building lobby (Festia A) in Hervanta. There is no keycard reader on the Festia door so go through the Main building if the door is locked.</li>
+    <li>Go to Festia A floor 3 using the stairs or the elevator</li>
+    <li>Walk the corridor to Festia B (the door will be locked)</li>
+    <li>Ping a board member present at the clubroom on Discord to ask them to open the door.</li>
+</ol>
 
-<img id="image" src="/assets/images/kancolle_office_dark.gif">
-<!--
-<p id="status">If you see this line, the status is not fetched. Try refreshing the page or contact the club authorities.</p>
-<p> Refresh the page to update the status.</p>
-<script>
-	fetch("https://nkante.site:8080")
-		.then(function(response) {
-			if (response.ok) {
-		        response.text().then(function(contents) {
-					document.getElementById("status").innerHTML = contents;
-					if (contents.includes("<b>ON</b>")) {
-    		    	document.getElementById("image").src = "/assets/images/kancolle_office_bright.gif";
-					}
-		        });
-			} else {
-				throw new Error("Status could not be retrieved. Please contact the club authorities.");
-			}
-		}).catch(function(error) {
-			document.getElementById("status").innerText = error.message;
-		});
-</script>
-
-</body>
-
-</html>
-
-Raw version of this page is also available [here](/status/raw).
--->
+{% include images id="pics" type="center" %}
