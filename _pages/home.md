@@ -7,6 +7,21 @@ header:
   cta_label: "Join us on Discord"
   cta_url: "https://discord.gg/uZJqHH7"
 excerpt: "Welcome to the website of HeNTAi, an anime hobby club of Tampere University!"
+
+club_info:
+    - title: Clubroom
+      url: /clubroom
+      excerpt: "We have a clubroom!"
+      btn_label: "Directions"
+    - title: Animekaraoke
+      url: /karaoke
+      excerpt: "We sing animekaraoke!"
+      btn_label: "List of songs"
+    - title: Discord
+      url: https://discord.gg/uZJqHH7
+      excerpt: "Join our Discord for event updates!"
+      btn_label: "Discord"
+
 intro:
   - excerpt: |
       **Our activities include:**
@@ -60,5 +75,6 @@ outro:
 ---
 
 {% include feature_row id="intro" type="center" %}
+{% include club_info %}
 {% include current_series %}
 {% include feature_row id="outro" type="center" %}
