@@ -23,18 +23,20 @@ intro:
 
 club_info:
   - title: Clubroom
-    image_path: 
+    image_path: /assets/images/clipart/kotatsu_animal.png
     url: /clubroom
     excerpt: "We have a clubroom!"
     btn_label: "Directions"
     btn_class: "btn--primary"
   - title: Discord
     url: https://discord.gg/uZJqHH7
+    image_path: assets/images/clipart/animal_chara_computer_penguin.png
     excerpt: "Join our Discord for event updates!"
     btn_label: "Discord"
     btn_class: "btn--primary"
   - title: Animekaraoke
     url: /karaoke
+    image_path: /assets/images/clipart/karaoke_nessyou.png
     excerpt: "We sing animekaraoke!"
     btn_label: "List of songs"
     btn_class: "btn--primary"
