@@ -23,7 +23,7 @@ intro:
 
 club_info:
   - title: Clubroom
-    image_path: /assets/images/clipart/kotatsu_animal.png
+    image_path: /assets/images/clipart/cat_kotatsu_neko.png
     url: /clubroom
     excerpt: "We have a clubroom!"
     btn_label: "Directions"
