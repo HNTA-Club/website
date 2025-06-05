@@ -31,7 +31,7 @@ club_info:
   - title: Discord
     url: https://discord.gg/uZJqHH7
     image_path: assets/images/clipart/animal_chara_computer_penguin.png
-    excerpt: "Join our Discord for event updates and anime,manga, video game and other Japanese popular culture related discussion!"
+    excerpt: "Join our Discord for event updates and anime, manga, video game and other Japanese popular culture related discussion!"
     btn_label: "Discord"
     btn_class: "btn--primary"
   - title: Animekaraoke
