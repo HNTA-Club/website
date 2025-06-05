@@ -3,6 +3,9 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
 		<ul>
+        {% unless site.logo == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ site.logo | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <a class="site-subtitle" href="{{ '/' | relative_url }}">{{ site.subtitle }}</a>
         </ul>
