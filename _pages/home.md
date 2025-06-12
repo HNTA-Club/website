@@ -31,7 +31,7 @@ club_info:
     btn_class: "btn--primary"
   - title: Discord
     url: https://discord.gg/uZJqHH7
-    image_path: /assets/images/clipart/building_anime_shop.png
+    image_path: /assets/images/clipart/internet_mark.png
     excerpt: "Join our Discord for event updates and anime, manga, video game and other Japanese popular culture related discussion!"
     btn_label: "Discord"
     btn_class: "btn--primary"
