@@ -4,7 +4,7 @@ permalink: /
 layout: splash
 header:
   overlay_image: /assets/images/dark_splash.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.3
   cta_label: "Join us on Discord"
   cta_url: "https://discord.gg/uZJqHH7"
 excerpt: "Welcome to the website of HeNTAi, an anime hobby club of Tampere University!"
@@ -24,14 +24,14 @@ intro:
 
 club_info:
   - title: Clubroom
-    image_path: /assets/images/clipart/cat_kotatsu_neko.png
+    image_path: /assets/images/clipart/kotatsu_animal.png
     url: /clubroom
     excerpt: "We have a clubroom where you can hangout and read manga."
     btn_label: "Directions"
     btn_class: "btn--primary"
   - title: Discord
     url: https://discord.gg/uZJqHH7
-    image_path: /assets/images/clipart/building_anime_shop.png
+    image_path: /assets/images/clipart/internet_earth.png
     excerpt: "Join our Discord for event updates and anime, manga, video game and other Japanese popular culture related discussion!"
     btn_label: "Discord"
     btn_class: "btn--primary"
