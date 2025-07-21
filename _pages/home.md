@@ -26,13 +26,13 @@ club_info:
   - title: Clubroom
     image_path: /assets/images/clipart/cat_kotatsu_neko.png
     url: /clubroom
-    excerpt: "We have a clubroom where you can hangout and read manga."
+    excerpt: "We have a clubroom for hanging out and reading manga."
     btn_label: "Directions"
     btn_class: "btn--primary"
   - title: Discord
     url: https://discord.gg/uZJqHH7
     image_path: /assets/images/clipart/internet_mark.png
-    excerpt: "Join our Discord for event updates and anime, manga, video game and other Japanese popular culture related discussion!"
+    excerpt: "We have a Discord for event updates and anime, manga, video game and other Japanese popular culture related discussion!"
     btn_label: "Discord"
     btn_class: "btn--primary"
   - title: Animekaraoke
