@@ -52,29 +52,29 @@ current_series:
       Be sure to join our <a href="https://discord.gg/uZJqHH7">Discord</a> for any sudden changes in our plans. <br />
       The series we'll watch are down below!
 
-  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/8ViqUWPWh6aPZGQA57FMRVmaXZ1.jpg
+  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/31I6eGFgYbbn5FMwzxOVlZfYETW.jpg
     type: left
-    title: Lazarus
+    title: Clevatess
     excerpt: |
-      <a href="https://myanimelist.net/anime/56038/Lazarus">MyAnimeList Lazarus</a>
+      <a href="https://anilist.co/anime/178869/Clevatess-Majuu-no-Ou-to-Akago-to-Kabane-no-Yuusha">AniList Clevatess</a>
+
+  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/frgVn3ww547TVQH8vS2bWKZnEBu.jpg
+    type: right
+    title:  Ping Pong THE ANIMATION
+    excerpt: |
+      <a href="https://anilist.co/anime/20607/Ping-Pong-THE-ANIMATION/">AniList Ping Pong THE ANIMATION</a>
 
   - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/48KKO5QHkowaCVsEpKLdvrzir3a.jpg
-    type: right
+    type: left
     title: Witch Watch
     excerpt: |
       <a href="https://myanimelist.net/anime/59597/Witch_Watch">MyAnimeList Witch Watch</a>
 
-  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/nAooVCW6PIfISHegaIwtQOZLBOC.jpg
-    type: left
-    title: Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)
-    excerpt: |
-      <a href="https://myanimelist.net/anime/52709/Danjo_no_Yuujou_wa_Seiritsu_suru_Iya_Shinai">MyAnimeList Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)</a>
-
-  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/iyTiJqrAs2YItyTYGI18PdqX65c.jpg
+  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/fcAKLwLJf6G8QaoGdJyxrVCHBnY.jpg
     type: right
-    title: Slime Taoshite 300-nen, Shiranai Uchi ni Level MAX ni Nattemashita
+    title: The Fragnant Flower Blooms with Dignity
     excerpt: |
-      <a href="https://myanimelist.net/anime/40586/Slime_Taoshite_300-nen_Shiranai_Uchi_ni_Level_Max_ni_Nattemashita">MyAnimeList Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita</a>
+      <a href="https://anilist.co/anime/181444/Kaoru-Hana-wa-Rin-to-Saku">AniList The Fragnant Flower Blooms with Dignity</a>
 
 outro:
   - excerpt: Images courtesy of <a href="https://www.themoviedb.org/">TMDB</a>
