@@ -64,14 +64,8 @@ current_series:
     excerpt: |
       <a href="https://anilist.co/anime/20607/Ping-Pong-THE-ANIMATION/">AniList Ping Pong THE ANIMATION</a>
 
-  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/48KKO5QHkowaCVsEpKLdvrzir3a.jpg
-    type: left
-    title: Witch Watch
-    excerpt: |
-      <a href="https://myanimelist.net/anime/59597/Witch_Watch">MyAnimeList Witch Watch</a>
-
   - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/fcAKLwLJf6G8QaoGdJyxrVCHBnY.jpg
-    type: right
+    type: left
     title: The Fragnant Flower Blooms with Dignity
     excerpt: |
       <a href="https://anilist.co/anime/181444/Kaoru-Hana-wa-Rin-to-Saku">AniList The Fragnant Flower Blooms with Dignity</a>

@@ -6,6 +6,8 @@ main:
     url: /events/
   - title: "Clubroom"
     url: /clubroom/
+  - title: "Karaoke"
+    url: /karaoke/
   - title: "Gallery"
     url: /gallery/
   - title: "About Us"
@@ -37,8 +39,8 @@ events:
   - title: "Karaoke"
     url: /karaoke/
     
-clubroom: 
-  - title: "Clubroom status"
+clubroom:
+  - title: "Clubroom route"
     url: /clubroom/
   - title: "Loanable manga"
     url: /manga/
