@@ -1,0 +1,187 @@
+---
+layout: single
+permalink: /karaoke-beta/
+sidebar:
+  nav: "events"
+---
+
+<noscript><p>NOTE: JavaScript is required for this page to function! </p></noscript>
+
+<p>The below forms use a copy of our karaoke list that may be out-of-date. Last updated: <span id="lastupdate">loading...</span> </p>
+
+<p style="font-weight: bold;">Search our karaoke songs: </p>
+<p>Artist: <input type="text" name="artist" id="artistsearch" style="border-style: solid;" /> <button onclick="karaokeSearch('artist')">Search</button> </p>
+<p>Song: <input type="text" name="song" id="songsearch" style="border-style: solid;" /> <button onclick="karaokeSearch('song')">Search</button> </p>
+<p>Anime: <input type="text" name="anime" id="animesearch" style="border-style: solid;" /> <button onclick="karaokeSearch('anime')">Search</button> </p>
+
+<p style="font-weight: bold;">Import your anime list from MAL: </p>
+<p>Load your MyAnimeList export file (both .xml and .xml.gz files work) and click "OK" to get (most of) the karaoke songs we have from anime you've finished. 
+	The list might not include all songs.</p>
+<p><input type="file" name="malfile" id="malfile" accept=".xml,.gz,.xml.gz,application/xml,application/gzip" /></p>
+<p><button onclick="karaokeLister()">OK</button></p>
+
+<div class="output"></div>
+
+<p style="font-weight: bold;">The full, up-to-date list: </p>
+<iframe width='1050' height='2000' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTFHxMlqkQW-aVmnz8IcB1w6glfoY0WNsu-EtIlCPBNzEK38UfJAwWJGHAmQErX9zcQdwL8XLyrr7FI/pubhtml?gid=206379915&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+<p><a href="https://discord.com/channels/501030515537608705/1180844304466460682">Karaoke thread on the Discord</a></p>
+<p><a href="https://docs.google.com/document/d/1hSYBtROm4BwvjohrkAhErUK8MxWyBs8X77ogujkFfQs/edit?usp=sharing">How to make a karaoke song</a></p>
+
+<script src="{{ '/assets/js/karaokelist.js' | relative_url }}"></script>
+<script type="text/javascript">
+// WARNING: HERE BE DRAGONS (= ugly code)
+// Created by Erufailon4 for HNTA 
+
+const output = document.querySelector(".output");
+document.getElementById("lastupdate").innerText = lastupdated;
+const songlist = parseCSV(karaokelist);
+console.log("karaoke list parsed, songs:");
+console.log(songlist.length);
+
+async function decompressBlob(blob) {
+  console.log("decompressing");
+  const ds = new DecompressionStream("gzip");
+  const decompressedStream = blob.stream().pipeThrough(ds);
+  console.log("decompressed");
+  return await new Response(decompressedStream).blob();
+}
+
+function tokenizeStr(inputstr) {
+    return inputstr.toLowerCase().replaceAll(/[?!:-\s]/g,"");
+}
+
+function parseXML(text, mystatus) {
+    console.log("parsing");
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(text,"text/xml");
+    // for every <anime>, add the contents of <series_title> to the list if <my_status> = mystatus
+    const animelist = [];
+    const animes = xmlDoc.getElementsByTagName("anime");
+    for (let i = 0; i < animes.length; i++) {
+        let thisanime = animes[i];
+        let thisstatus = thisanime.getElementsByTagName("my_status")[0].childNodes[0].nodeValue;
+        if (thisstatus == mystatus) {
+            let thistitle = tokenizeStr(thisanime.getElementsByTagName("series_title")[0].childNodes[0].nodeValue);
+            animelist.push(thistitle);
+        }
+    }
+    console.log("parsed, animelist length:");
+    console.log(animelist.length);
+	if (animelist.length < 1) {
+		alert("The XML is incorrectly formatted or doesn't list any anime!");
+	}
+    return animelist;
+}
+
+function parseCSVRow(row) {
+    const separators = [];
+    let quoted = false;
+    for (let i = 0; i < row.length; i++) {
+        if (row.charAt(i) == '"' && !quoted) {
+            quoted = true;
+        } else if (row.charAt(i) == '"') {
+            quoted = false;
+        } else if (row.charAt(i) == ',' && !quoted) {
+            separators.push(i);
+        }
+    }
+    const rowparts = [];
+    let previoussep = -1;
+    const seps = separators.length;
+    for (let j = 0; j < seps+1; j++) {
+        let newsub;
+        if (j == seps) {
+            newsub = row.substring(previoussep+1);
+        } else {
+            newsub = row.substring(previoussep+1, separators[j]);
+        }
+        rowparts.push(newsub);
+        previoussep = separators[j];
+    }
+    return rowparts;
+}
+
+function parseCSV(csvdata) {
+    const rows = csvdata.split('\n');
+    const songs = [];
+    for (let row of rows) {
+        const rowparts = parseCSVRow(row);
+        const songdata = {artist: rowparts[1], title: rowparts[2], anime: rowparts[3]};
+        songs.push(songdata);
+    }
+    return songs;
+}
+
+function filterList(songlist, animelist) {
+    const newsonglist = [];
+    for (let song of songlist) {
+        if (animelist.includes(tokenizeStr(song.anime))) {
+            newsonglist.push(song);
+        }
+    }
+    console.log("new song list length:");
+    console.log(newsonglist.length);
+    return newsonglist;
+}
+
+function outputTable(songlist) {
+    let tablehtml = '<table class="table"><thead><tr><th scope="col">Artist</th><th scope="col">Song</th><th scope="col">Anime</th></tr></thead><tbody>';
+    for (let song of songlist) {
+        tablehtml += '<tr><td>'+song.artist+'</td><td>'+song.title+'</td><td>'+song.anime+'</td></tr>';
+    }
+    tablehtml += '</tbody></table>';
+    return tablehtml;
+}
+
+function exectime(start) {
+    const timelength = Date.now()-start;
+    console.log("Running finished in "+timelength.toString()+" ms");
+}
+
+function karaokeSearch(category) {
+    const searchinput = tokenizeStr(document.getElementById(category+"search").value);
+    //console.log(searchinput);
+
+    const newsonglist = [];
+    for (let song of songlist) {
+        if ((category == "artist" && tokenizeStr(song.artist).includes(searchinput)) 
+            || (category == "song" && tokenizeStr(song.title).includes(searchinput)) 
+            || (category == "anime" && tokenizeStr(song.anime).includes(searchinput))) {
+                newsonglist.push(song);
+            }
+    }
+    output.innerHTML = outputTable(newsonglist);
+}
+
+function karaokeLister() {
+    const starttime = Date.now();
+
+    const fileInput = document.getElementById("malfile");
+    const [file] = fileInput.files;
+
+    // karaokelist parsing moved to global
+
+    if (file) {
+        console.log("file loaded");
+        let animelist = [];
+        if (file.name.endsWith(".gz")) {
+            console.log("gz file!");
+            decompressBlob(file).then(function(response) {
+                return response.text();
+            }).then(function(data) {
+                animelist = parseXML(data,"Completed");
+                output.innerHTML = outputTable(filterList(songlist,animelist));
+                exectime(starttime);
+            });
+        } else {
+            console.log("not a gz file!");
+			file.text().then(function(data) {
+				animelist = parseXML(data,"Completed");
+            	output.innerHTML = outputTable(filterList(songlist,animelist));
+                exectime(starttime);
+			})
+        }
+    }
+}
+</script>
