@@ -1,6 +1,6 @@
 ---
 ---
 
-const lastupdated = "August 2025";
+const lastupdated = "September 2025";
 
 const karaokelist = `{% include karaoke.csv %}`;
