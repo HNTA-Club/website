@@ -10,9 +10,10 @@ sidebar:
 <p>The below forms use a copy of our karaoke list that may be out-of-date. Last updated: <span id="lastupdate">loading...</span> </p>
 
 <p style="font-weight: bold;">Search our karaoke songs: </p>
-<p>Artist: <input type="text" name="artist" id="artistsearch" style="border-style: solid; width: 50%;" /> <button onclick="karaokeSearch('artist')">Search</button> </p>
-<p>Song: <input type="text" name="song" id="songsearch" style="border-style: solid; width: 50%;" /> <button onclick="karaokeSearch('song')">Search</button> </p>
-<p>Anime: <input type="text" name="anime" id="animesearch" style="border-style: solid; width: 50%;" /> <button onclick="karaokeSearch('anime')">Search</button> </p>
+<p>Artist: <input type="text" name="artist" id="artistsearch" style="border-style: solid; width: 50%;" /> </p>
+<p>Song: <input type="text" name="song" id="songsearch" style="border-style: solid; width: 50%;" /> </p>
+<p>Anime: <input type="text" name="anime" id="animesearch" style="border-style: solid; width: 50%;" /> </p>
+<p><button onclick="karaokeSearch()">Search</button></p>
 
 <p style="font-weight: bold;">Import your anime list from MAL: </p>
 <p>Load your MyAnimeList export file (both .xml and .xml.gz files work) and click "OK" to get (most of) the karaoke songs we have from anime you've finished. 
@@ -139,15 +140,17 @@ function exectime(start) {
     console.log("Running finished in "+timelength.toString()+" ms");
 }
 
-function karaokeSearch(category) {
-    const searchinput = tokenizeStr(document.getElementById(category+"search").value);
+function karaokeSearch() {
+    const artistsearchinput = tokenizeStr(document.getElementById("artistsearch").value);
+    const songsearchinput = tokenizeStr(document.getElementById("songsearch").value);
+    const animesearchinput = tokenizeStr(document.getElementById("animesearch").value);
     //console.log(searchinput);
 
     const newsonglist = [];
     for (let song of songlist) {
-        if ((category == "artist" && tokenizeStr(song.artist).includes(searchinput)) 
-            || (category == "song" && tokenizeStr(song.title).includes(searchinput)) 
-            || (category == "anime" && tokenizeStr(song.anime).includes(searchinput))) {
+        if ((artistsearchinput != "" && tokenizeStr(song.artist).includes(artistsearchinput)) 
+            || (songsearchinput != "" && tokenizeStr(song.title).includes(songsearchinput)) 
+            || (animesearchinput != "" && tokenizeStr(song.anime).includes(animesearchinput))) {
                 newsonglist.push(song);
             }
     }
