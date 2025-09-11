@@ -1,0 +1,6 @@
+---
+# Empty front matter so Jekyll processes Liquid
+---
+User-agent: *
+Disallow:
+Sitemap: {{ site.url }}/sitemap.xml
