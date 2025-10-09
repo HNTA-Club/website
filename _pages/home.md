@@ -52,23 +52,29 @@ current_series:
       Be sure to join our <a href="https://discord.gg/uZJqHH7">Discord</a> for any sudden changes in our plans. <br />
       The series we'll watch are down below!
 
-  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/31I6eGFgYbbn5FMwzxOVlZfYETW.jpg
+  - image_path: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oQk3aXYEa4TMd9rAYgzDpAYTU8P.jpg
+    title: My Status as an Assassin Obviously Exceeds the Hero’s
     type: left
-    title: Clevatess
     excerpt: |
-      <a href="https://anilist.co/anime/178869/Clevatess-Majuu-no-Ou-to-Akago-to-Kabane-no-Yuusha">AniList Clevatess</a>
+      <a href="https://anilist.co/anime/186794/Ansatsusha-de-Aru-Ore-no-Status-ga-Yuusha-yori-mo-Akiraka-ni-Tsuyoi-no-da-ga">AniList</a>
 
-  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/frgVn3ww547TVQH8vS2bWKZnEBu.jpg
+  - image_path: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wWeX98utJGCTvLKPUYnlg8Euw2o.jpg
     type: right
-    title:  Ping Pong THE ANIMATION
+    title:  This Monster Wants to Eat Me
     excerpt: |
-      <a href="https://anilist.co/anime/20607/Ping-Pong-THE-ANIMATION/">AniList Ping Pong THE ANIMATION</a>
+      <a href="https://anilist.co/anime/183385/Watashi-wo-Tabetai-Hitodenashi">AniList</a>
 
-  - image_path: https://image.tmdb.org/t/p/w600_and_h900_bestv2/fcAKLwLJf6G8QaoGdJyxrVCHBnY.jpg
+  - image_path: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uPMJU0u3kOk9ITrsJnHpBFvEK0H.jpg
     type: left
-    title: The Fragnant Flower Blooms with Dignity
+    title: SANDA
     excerpt: |
-      <a href="https://anilist.co/anime/181444/Kaoru-Hana-wa-Rin-to-Saku">AniList The Fragnant Flower Blooms with Dignity</a>
+      <a href="https://anilist.co/anime/179302/SANDA">AniList</a>
+
+  - image_path: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fpDesSzDRMFGIJbcuC2WVCveC2P.jpg
+    type: right
+    title: "Wotakoi: Love is Hard for Otaku"
+    excerpt: |
+      <a href="https://anilist.co/anime/99578/Wotaku-ni-Koi-wa-Muzukashii/">AniList</a>
 
 outro:
   - excerpt: Images courtesy of <a href="https://www.themoviedb.org/">TMDB</a>
