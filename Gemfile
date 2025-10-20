@@ -5,3 +5,4 @@ group :jekyll_plugins do
 end
 
 gem "ffi", "< 1.17.0"
+gem 'jekyll', "< 4.1.1"
