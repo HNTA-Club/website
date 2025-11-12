@@ -20,7 +20,7 @@ sidebar:
 <p>Load your MyAnimeList export file (both .xml and .xml.gz files work) and click "OK" to get (most of) the karaoke songs we have from anime you've finished. 
 	The list might not include all songs.</p>
 <p><input type="file" name="malfile" id="malfile" accept=".xml,.gz,.xml.gz,application/xml,application/gzip" /></p>
-<p><button type="button" onclick="karaokeLister()">OK</button></p>
+<p><button type="button" onclick="karaokeLister()">OK</button> <button type="button" onclick="randomal()" id="randomal">Random</button> </p>
 
 <div class="output"></div>
 
@@ -53,7 +53,10 @@ async function scrapeGoogle() {
 }
 
 var songlist;
+var usersonglist = [];
 const output = document.querySelector(".output");
+const randombutton = document.getElementById("randomal");
+randombutton.style.display = "none";
 (async () => {
 	songlist = await scrapeGoogle();
 	console.log("karaoke list parsed, songs:");
@@ -136,6 +139,7 @@ function karaokeSearch() {
             }
     }
     output.innerHTML = outputTable(newsonglist);
+    randombutton.style.display = "none";
 }
 
 function karaokeLister() {
@@ -155,17 +159,29 @@ function karaokeLister() {
                 return response.text();
             }).then(function(data) {
                 animelist = parseXML(data,"Completed");
-                output.innerHTML = outputTable(filterList(songlist,animelist));
+                usersonglist = filterList(songlist,animelist);
+                output.innerHTML = outputTable(usersonglist);
                 exectime(starttime);
+                randombutton.style.display = "inline";
             });
         } else {
             console.log("not a gz file!");
 			file.text().then(function(data) {
 				animelist = parseXML(data,"Completed");
-            	output.innerHTML = outputTable(filterList(songlist,animelist));
+                usersonglist = filterList(songlist,animelist);
+            	output.innerHTML = outputTable(usersonglist);
                 exectime(starttime);
+                randombutton.style.display = "inline";
 			})
         }
     }
+}
+
+function randomal() {
+    const rowcount = usersonglist.length;
+    const randomrow = Math.floor(Math.random() * rowcount);
+    const templist = [];
+    templist[0] = usersonglist[randomrow];
+    output.innerHTML = outputTable(templist);
 }
 </script>
