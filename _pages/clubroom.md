@@ -6,21 +6,21 @@ sidebar:
  nav: "clubroom"
 
 pics:
-   - url: /assets/images/clubroom/Temp/temp_route.png
-     image_path: assets/images/clubroom/Temp/temp_route.png
+   - url: /assets/images/clubroom/Temp/hnta-route.jpg
+     image_path: assets/images/clubroom/Temp/hnta-route.jpg
 ---
 
-The temporary clubroom is situated in Festia B third floor (FB307).
+The clubroom is situated in Sähkötalo basement ("Skellari") at Hervanta campus in room SA030.
 
-# Route to temporary clubroom
+# Route to clubroom
 
 Check <code>#clubroom-status</code> channel on Discord to check if the clubroom is open.
 
 <ol>
-    <li>Enter Festia building lobby (Festia A) in Hervanta. There is no keycard reader on the Festia door so go through the Main building if the door is locked.</li>
-    <li>Go to Festia A floor 3 using the stairs or the elevator</li>
-    <li>Walk the corridor to Festia B (the corridor door will be locked after 17:00)</li>
-    <li>Ask on the <code>#events</code> channel on Discord for somebody to come open the corridor door if it's locked.</li>
+    <li>Enter Fablab on Floor 1 in Sähkötalo at Hervanta Campus.</li>
+    <li>Take the spiral staircase down to the basement.</li>
+    <li>Ask on the <code>#events</code> channel on Discord for somebody to come open the basement door if it's locked.</li>
+    <li>Take two right turns and SA030 is in front of you.</li>
 </ol>
 
 {% include images id="pics" type="center" %}
