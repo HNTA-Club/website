@@ -128,7 +128,6 @@ function karaokeSearch() {
     const artistsearchinput = tokenizeStr(document.getElementById("artistsearch").value);
     const songsearchinput = tokenizeStr(document.getElementById("songsearch").value);
     const animesearchinput = tokenizeStr(document.getElementById("animesearch").value);
-    //console.log(searchinput);
 
     const newsonglist = [];
     for (let song of songlist) {
@@ -147,8 +146,6 @@ function karaokeLister() {
 
     const fileInput = document.getElementById("malfile");
     const [file] = fileInput.files;
-
-    // karaokelist parsing moved to global
 
     if (file) {
         console.log("file loaded");
