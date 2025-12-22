@@ -5,12 +5,18 @@ classes: wide
 sidebar:
  nav: "clubroom"
 
-pics:
+clubroom_pics:
+   - url: assets/images/clubroom/fumo-compressed.jpg
+     image_path: assets/images/clubroom/fumo-compressed.jpg
+route:
    - url: /assets/images/clubroom/Temp/hnta-route.jpg
      image_path: assets/images/clubroom/Temp/hnta-route.jpg
+
 ---
 
 The clubroom is situated in Sähkötalo basement ("Skellari") at Hervanta campus in room SA030.
+
+{% include images id="clubroom_pics" type="center" %}
 
 # Route to clubroom
 
@@ -23,4 +29,4 @@ Check <code>#clubroom-status</code> channel on Discord to check if the clubroom 
     <li>Take two right turns and SA030 is in front of you.</li>
 </ol>
 
-{% include images id="pics" type="center" %}
+{% include images id="route" type="center" %}

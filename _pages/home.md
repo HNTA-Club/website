@@ -18,7 +18,7 @@ intro:
         <li>Singing animekaraoke</li>
         <li>Occasional projects, like a building a giant mecha</li>
         <li>Hosting events, like grilling or sauna</li>
-        <li>Attending events, like Tracon</li>
+        <li>Attending events, like <a href="https://tracon.fi">Tracon</a></li>
         <li>Watching movies in lecture halls</li>
       </ul>
 
