@@ -44,7 +44,6 @@ club_info:
 
 anime_viewings:
   - title: Anime viewings every Friday
-    type: center
     excerpt: |
       Viewings will be hosted in the clubroom or a lecture hall, 5 p.m. on Friday. <br />
       Animekaraoke usually afterwards! <br />
@@ -53,6 +52,6 @@ anime_viewings:
 ---
 
 {% include feature_row id="intro" type="center" %}
-{% include feature_row id="anime_viewings" %}
+{% include feature_row id="anime_viewings" type="center" %}
 {% include feature_row id="club_info" %}
 {% include feature_row id="outro" type="center" %}
