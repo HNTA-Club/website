@@ -6,8 +6,8 @@ sidebar:
  nav: "clubroom"
 
 clubroom_pics:
-   - url: assets/images/clubroom/fumo-compressed.jpg
-     image_path: assets/images/clubroom/fumo-compressed.jpg
+   - url: assets/images/clubroom/clubroom.jpg
+     image_path: assets/images/clubroom/clubroom.jpg
 route:
    - url: /assets/images/clubroom/Temp/hnta-route.jpg
      image_path: assets/images/clubroom/Temp/hnta-route.jpg
