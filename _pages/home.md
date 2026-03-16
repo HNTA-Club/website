@@ -35,10 +35,10 @@ club_info:
     excerpt: "We have a Discord for event updates and anime, manga, video game and other Japanese popular culture related discussion!"
     btn_label: "Discord"
     btn_class: "btn--primary"
-  - title: Animekaraoke
+  - title: Anime karaoke
     url: /karaoke
     image_path: /assets/images/clipart/karaoke_nessyou.png
-    excerpt: "We sing animekaraoke, usually after the Friday anime viewing."
+    excerpt: "We sing anime karaoke, usually after the Friday anime viewing."
     btn_label: "List of songs"
     btn_class: "btn--primary"
 
@@ -46,7 +46,7 @@ anime_viewings:
   - title: Anime viewings every Friday
     excerpt: |
       Viewings will be hosted in the clubroom or a lecture hall, 5 p.m. on Friday. <br />
-      Animekaraoke usually afterwards! <br />
+      Anime karaoke usually afterwards! <br />
       Be sure to join our <a href="https://discord.gg/uZJqHH7">Discord</a> for info about the current series or any sudden changes in our plans. <br />
 
 ---
