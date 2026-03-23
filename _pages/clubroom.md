@@ -9,8 +9,8 @@ clubroom_pics:
    - url: assets/images/clubroom/clubroom.jpg
      image_path: assets/images/clubroom/clubroom.jpg
 route:
-   - url: /assets/images/clubroom/Temp/hnta-route.jpg
-     image_path: assets/images/clubroom/Temp/hnta-route.jpg
+   - url: /assets/images/clubroom/route2026jpg
+     image_path: assets/images/clubroom/route2026.jpg
 
 ---
 
