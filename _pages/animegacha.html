@@ -782,11 +782,11 @@ permalink: /animegacha/
       <aside class="rules" aria-label="Rank rules">
         <h2>Score rank rules</h2>
         <div class="rule-grid">
-          <div class="rule"><b>★★★★★</b><span>score &gt; 9.0</span></div>
-          <div class="rule"><b>★★★★☆</b><span>score ≥ 8.5</span></div>
-          <div class="rule"><b>★★★☆☆</b><span>score ≥ 8.0</span></div>
-          <div class="rule"><b>★★☆☆☆</b><span>score ≥ 7.5</span></div>
-          <div class="rule"><b>★☆☆☆☆</b><span>below 7.5 / unknown</span></div>
+          <div class="rule"><b>★★★★★</b><span>score ≥ 8.5</span></div>
+          <div class="rule"><b>★★★★☆</b><span>score ≥ 8.0</span></div>
+          <div class="rule"><b>★★★☆☆</b><span>score ≥ 7.5</span></div>
+          <div class="rule"><b>★★☆☆☆</b><span>score ≥ 7.0</span></div>
+          <div class="rule"><b>★☆☆☆☆</b><span>below 7.0 / unknown</span></div>
         </div>
       </aside>
     </section>
@@ -1042,10 +1042,10 @@ Violet Evergarden`;
 
     function getRank(score) {
       if (!Number.isFinite(score)) return 1;
-      if (score > 9.0) return 5;
-      if (score >= 8.5) return 4;
-      if (score >= 8.0) return 3;
-      if (score >= 7.5) return 2;
+      if (score >= 8.5) return 5;
+      if (score >= 8.0) return 4;
+      if (score >= 7.5) return 3;
+      if (score >= 7.0) return 2;
       return 1;
     }
 
