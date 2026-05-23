@@ -46,7 +46,7 @@ rextension:
 
 vasu:
   name: "vasu"
-  bio: "Event official"
+  bio: "Event"
   board: "true"
 
 Dig_dug:
@@ -56,7 +56,7 @@ Dig_dug:
 
 tuyakbay:
   name: "Tuyakbay"
-  bio: "Karaoke engineer"
+  bio: "Karaoke goon"
   board: "true"
 
 p1ker1:
@@ -71,7 +71,7 @@ kashikoma:
 
 kulmikas:
   name: "kulmikas"
-  bio: "Karaoke Engineer"
+  bio: "Karaoke engineer"
   board: "true"
 
 niko:
