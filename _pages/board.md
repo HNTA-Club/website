@@ -4,7 +4,7 @@ permalink: /board/
 sidebar:
   nav: "info"
 ---
-**HeNTAi Board 2025**
+**HeNTAi Board 2026**
 
 <ul>
   {% for author in site.data.authors %}

@@ -1,13 +1,13 @@
-# Current board members 2025
+# Current board members 2026
 
 dralyon:
   name: "Dralyon"
   bio: "President"
   board: "true"
 
-spaketti:
-  name: "Spaketti"
-  bio: "Vice President"
+blueviru:
+  name: "Blueviru"
+  bio: "Vice-president & Comms Commissar"
   board: "true"
 
 megagiganium:
@@ -17,56 +17,93 @@ megagiganium:
 
 olson:
   name: "Olson"
-  bio: "Treasurer, Clubroom Fairy"
+  bio: "Treasurer, Member responsible"
   board: "true"
 
-sampo:
-  name: "Sampo"
+
+zoroarkills:
+  name: "ZoroarKills"
+  bio: "Clubroom Fairy"
+  board: "true"
+
+
+erufailon4:
+  name: "Erufailon4"
   bio: "Ultimate Host"
   board: "true"
 
-kulmikas:
-  name: "kulmikas"
-  bio: "Karaoke Assistant"
-  board: "true"
-
-tuyakbay:
-  name: "Tuyakbay"
-  bio: "Karaoke Goon"
+theanthony:
+  name: "The_Anthony"
+  bio: "IT responsible"
   board: "true"
 
 rextension:
   name: "Rextension"
-  bio: "IT-responsible"
+  bio: "Fuksi responsible"
   board: "true"
 
-erufailon4:
-  name: "Erufailon4"
-  bio: "Vice IT Responsible"
-  board: "true"
 
-hail_ankka:
-  name: "Hail_Ankka"
-  bio: "IT Assistant"
-  board: "true"
-
-tsuribori2:
-  name: "tsuribori2"
-  bio: "IT Assistant"
-  board: "true"
 
 vasu:
   name: "vasu"
-  bio: "Event Official"
+  bio: "Event"
+  board: "true"
+
+Dig_dug:
+  name: "Dig_dug"
+  bio: "Helper official"
+  board: "true"
+
+tuyakbay:
+  name: "Tuyakbay"
+  bio: "Karaoke goon"
+  board: "true"
+
+p1ker1:
+  name: "p1ker1"
+  bio: "Karaoke engineer"
+  board: "true"
+
+kashikoma:
+  name: "kashikoma"
+  bio: "IT official"
+  board: "true"
+
+kulmikas:
+  name: "kulmikas"
+  bio: "Karaoke engineer"
   board: "true"
 
 niko:
   name: "niko"
-  bio: "Event Official"
+  bio: "IT official"
   board: "true"
 
 
+
 # From here on former members
+
+
+spaketti:
+  name: "Spaketti"
+  bio: "Vice President"
+  board: "false"
+  
+sampo:
+  name: "Sampo"
+  bio: "Ultimate Host"
+  board: "false"
+  
+hail_ankka:
+  name: "Hail_Ankka"
+  bio: "IT Assistant"
+  board: "false"
+  
+tsuribori2:
+  name: "tsuribori2"
+  bio: "IT Assistant"
+  board: "false"
+
 
 bitofhope:
   name: "Bitofhope"
