@@ -46,22 +46,22 @@ rextension:
 
 vasu:
   name: "vasu"
-  bio: "Official"
+  bio: "Event official"
   board: "true"
 
 Dig_dug:
   name: "Dig_dug"
-  bio: "Official"
+  bio: "Helper official"
   board: "true"
 
 tuyakbay:
   name: "Tuyakbay"
-  bio: "Karaoke Goon"
+  bio: "Karaoke engineer"
   board: "true"
 
 p1ker1:
   name: "p1ker1"
-  bio: "IT official"
+  bio: "Karaoke engineer"
   board: "true"
 
 kashikoma:
