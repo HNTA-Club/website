@@ -46,11 +46,21 @@ rextension:
 
 vasu:
   name: "vasu"
-  bio: "Event"
+  bio: "Event official"
   board: "true"
 
 Dig_dug:
   name: "Dig_dug"
+  bio: "Helper official"
+  board: "true"
+
+spaketti:
+  name: "Spaketti"
+  bio: "Helper official"
+  board: "true"
+
+quackquack:
+  name: "QuackQuack"
   bio: "Helper official"
   board: "true"
 
