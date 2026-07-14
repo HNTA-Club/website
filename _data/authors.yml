@@ -20,12 +20,10 @@ olson:
   bio: "Treasurer, Member responsible"
   board: "true"
 
-
 zoroarkills:
   name: "ZoroarKills"
   bio: "Clubroom Fairy"
   board: "true"
-
 
 erufailon4:
   name: "Erufailon4"
@@ -42,8 +40,6 @@ rextension:
   bio: "Fuksi responsible"
   board: "true"
 
-
-
 vasu:
   name: "vasu"
   bio: "Event official"
@@ -52,6 +48,11 @@ vasu:
 Dig_dug:
   name: "Dig_dug"
   bio: "Helper official"
+  board: "true"
+
+lahu:
+  name: "Lahu"
+  bio: "Textile official"
   board: "true"
 
 spaketti:
@@ -89,38 +90,34 @@ niko:
   bio: "IT official"
   board: "true"
 
-
-
 # From here on former members
-
 
 spaketti:
   name: "Spaketti"
   bio: "Vice President"
   board: "false"
-  
+
 sampo:
   name: "Sampo"
   bio: "Ultimate Host"
   board: "false"
-  
+
 hail_ankka:
   name: "Hail_Ankka"
   bio: "IT Assistant"
   board: "false"
-  
+
 tsuribori2:
   name: "tsuribori2"
   bio: "IT Assistant"
   board: "false"
-
 
 bitofhope:
   name: "Bitofhope"
   bio: "Ultimate Host"
   board: "false"
 
-blue: 
+blue:
   name: "Blue"
   bio: "Communications Assistant"
   board: "false"
@@ -130,12 +127,12 @@ ducks:
   bio: "Vice President / Graphic Designer / IT-responsible"
   board: "false"
 
-igneria: 
+igneria:
   name: "Igneria"
   bio: "Clubroom Fairy"
   board: "false"
 
-pasi: 
+pasi:
   name: "Pasi"
   bio: "Karaoke Master"
   board: "false"
@@ -145,12 +142,12 @@ rhoenen:
   bio: "President"
   board: "false"
 
-yed: 
+yed:
   name: "YED"
   bio: "Vice President"
   board: "false"
 
-jake: 
+jake:
   name: "Jake"
   bio: "Treasurer"
   board: "false"
@@ -159,7 +156,7 @@ shatter:
   name: "Shatter"
   bio: "Communications Commissar"
   board: "false"
-  
+
 argent:
   name: "Argent"
   bio: "Chairman of the Board / President"
@@ -219,4 +216,3 @@ dorks:
   name: "DarkSekai"
   bio: "Stingy treasurer"
   board: "false"
-
